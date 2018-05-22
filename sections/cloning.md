@@ -18,13 +18,13 @@ First, follow [this link to the main page of this lesson on Git and GitHub](http
 
 On the main page, there should be a green `Clone or download` button on the right side:
 
-![Image pointing out where the clone or download button is on GitHub](clone.png)
+![Image pointing out where the clone or download button is on GitHub](../images/clone.png)
 
 Click the green button and you will see a box with highlighted text under a heading that says `Clone with HTTPS`. If you instead see `Cloning with SSH`, click the small link that says `Use HTTPS`.
 
 Now copy out the text in the box:
 
-![Image showing where the text you need to copy is located](copy-clone-text.png)
+![Image showing where the text you need to copy is located](../images/copy-clone-text.png)
 
 Now that you have the text copied, go back to your terminal. Remember, you should be on the desktop.
 
