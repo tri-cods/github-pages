@@ -18,9 +18,9 @@ Now Git is tracking our directory. But before that's useful, we'll have to creat
 
 ### Creating a Syllabus in Markdown
 
-Let's use our text editor, VS Code, to create and edit a syllabus file in the folder. Make sure VS Code is installed before taking this step.
+To create a plain text file, we're going to switch to our text editor, VS Code, to create and edit a file named 'syllabus.md' and save it to our 'git-practice' folder. If you have not installed VS Code, review the installation instructions here.
 
-While in the `git-practice` folder, in the terminal, type
+In terminal, check to make sure you are in your `git-practice` folder. (HINT: use 'pwd' to see what directory you are currently in) Next, type:
 
 	code syllabus.md
 	
@@ -34,13 +34,13 @@ We'll be typing our markdown into this VS Code window. At any time, you can save
 
 ## Using Markdown
 
-We'll be using markdown to create a syllabus, and then using Git to track it. Markdown is a markup format that allows us to denote formatting like headings, emphasis, links, and lists in a readable form. Markdown files usually have a `.md` extension.
+We'll be using markdown to create a syllabus, and then using Git to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a `.md` extension.
 
-In markdown, we insert headings like this:
+In markdown, we insert headings with a single hash mark like this:
 
 	# My Syllabus Heading
 	
-A sub-heading (H2) heading looks like this:
+A sub-heading (H2) heading uses two hash marks like this:
 
 	## Readings
 	
@@ -48,8 +48,10 @@ To provide emphasis, place asterisks around some text:
 
 	*This text will appear italicized.*
 	**This text will appear bold.**
-	
-To create a list, put a hyphen at the beginning of each list item:
+
+For emphasis, you need to mark where it should start and where it should end, so you need astrisks at the beginning and end of whatever text is being emphasized. 	
+
+To create a bulleted list, put a hyphen at the beginning of each list item:
 
 	- Reading one
 	- Reading two
