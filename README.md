@@ -23,7 +23,7 @@ In this session, we'll learn what makes Git such a powerful tool for both collab
 -----
 
 Session Leader: Patrick Sweeney  
-Based on previous work by Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh  
+Based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh  
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
