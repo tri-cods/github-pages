@@ -1,7 +1,9 @@
 [<<< Previous](examples.md) | [Next >>>](gitconfig.md)  
 # Review of the Command Line
 
-We'll be using the command line in this session, so let's review some command line basics first, including navigation. For more on the command line, review the [materials for the command line session](https://github.com/DHRI-Curriculum/command-line).
+In this session, we'll be using the command line (terminal, bash) from the Command Line workshop. We'll also use your text editor and your browser. We'll be moving between these three spaces throughout the workshop. You may want to use (command + tab) or (ctrl + tab) to move quickly between the three windows on your desktop.
+
+To begin with, we'll review some command line basics, including navigation. For more on the command line, review the [materials for the command line session](https://github.com/DHRI-Curriculum/command-line).
 
 ## Accessing the Terminal
 
