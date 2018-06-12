@@ -5,7 +5,7 @@ Listed below are some suggested resources that can help you dig deeper into Git 
 ## Git
 * [Pro Git](https://git-scm.com/book/en/v2), the encyclopedic documentation of Git by Scott Chacon and Ben Straub.
 
-* [Version Control 101](https://github.com/learn-co-students/git-version-control-101-v-000) An introduction to the concepts of version control that underly Git.
+* [Version Control 101](https://github.com/learn-co-students/git-version-control-101-v-000) An introduction to the concepts of version control that underlie Git.
 
 ## GitHub 
 * [GitHub Training and Guides Videos](https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw) The YouTube channel for all GitHub informational videos. 
