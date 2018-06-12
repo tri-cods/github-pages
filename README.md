@@ -20,6 +20,7 @@ To complete this workshop, you will need to have VS Code and Git installed on yo
 [Pushing to GitHub](sections/github.md)  
 [Cloning ](sections/cloning.md)  
 [Challenges](sections/challenge.md)  
+[Summary](sections/summary.md)  
 [Resources](sections/resources.md)  
 
 -----
