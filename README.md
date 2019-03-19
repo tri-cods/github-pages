@@ -25,7 +25,8 @@ To complete this workshop, you will need to have VS Code and Git installed on yo
 
 -----
 
-Session Leader: Michael Zarafonetis 
+Session Leader: Michael Zarafonetis   
+
 Based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh  
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
