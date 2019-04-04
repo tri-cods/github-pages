@@ -7,7 +7,7 @@ In this session, we'll learn what makes Git such a powerful tool for both collab
 To complete this workshop, you will need to have VS Code and Git installed on your local machine. If you have not installed them already, follow [this link to instructions for Atom](https://flight-manual.atom.io/getting-started/sections/installing-atom/), and [this link to instructions for Git](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md).
 
 [Get Started >>>](sections/concept.md)  
-[Glossary >>>](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/git.md#git)  
+[Glossary >>>](https://github.com/tri-cods/glossary/blob/master/sections/git.md)  
 
 -----
 
