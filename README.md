@@ -40,6 +40,7 @@
 
 ## Applying themes (30 minutes) (Workshop time)
 - Let's theme the syllabus we created yesterday
+- use any [public theme](https://github.blog/2017-11-29-use-any-theme-with-github-pages/), [list of themes](https://github.com/topics/jekyll-theme)
 
 ## Licensing (5 minutes) (Mike)
 
