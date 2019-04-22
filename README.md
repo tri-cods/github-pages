@@ -21,6 +21,7 @@
 ## Introducing markdown (10 minutes) (Mike)
 - What is markdown and how does it work?
 - Basic elements
+- HTML embeds within Markdown
 
 ## Create a course site (30 minutes) (Workshop time - Mike)
 - Let's create a basic outline, then iterate with additional text/content
