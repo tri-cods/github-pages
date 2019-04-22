@@ -22,7 +22,7 @@
 - What is markdown and how does it work?
 - Basic elements
 
-## Create a course site (30 minutes) (Workshop time)
+## Create a course site (30 minutes) (Workshop time - Mike)
 - Let's create a basic outline, then iterate with additional text/content
 - Upload a file in the repo and link to it
 - Introduce the cheat sheet
