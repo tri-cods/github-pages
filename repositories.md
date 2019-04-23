@@ -15,7 +15,7 @@ To begin with:
 You will need to have an account with GitHub.  It's free to sign up and to use.  
 Go to [Github.com](https://github.com/) and enter your information. 
 
-<img src="https://github.com/tri-cods/git/raw/master/static/signup.png" alt="sign up form for github" width="200"/>
+<img src="https://github.com/tri-cods/git/raw/master/static/signup.png" alt="sign up form for github" width="50%"/>
 
 - [X] Create a Github account
 
@@ -26,4 +26,5 @@ To create a new repository, log in to Github with the account that you created a
 
 You should see a form similar to the one below.  
 
-![new repository form](https://github.com/tri-cods/git/raw/master/static/new_repo.png)
+<img src="https://github.com/tri-cods/git/raw/master/static/new_repo.png" alt="new repository form" width="50%"/>
+
