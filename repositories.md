@@ -22,3 +22,4 @@ Go to [Github.com](https://github.com/) and enter your information.
 ---
 
 ## Create a repository
+To create a new repository, log in to Github with the account that you created above and click on this button: ![](https://github.com/tri-cods/git/raw/master/static/new.png). 
