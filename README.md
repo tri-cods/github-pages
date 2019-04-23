@@ -50,10 +50,10 @@
 - Wiki
 
 ## Purpose-built themes (10 minutes) (Andy)
-- Ed
-- Wax
+- [Ed](https://github.com/minicomp/ed)
+- [Wax](https://github.com/minicomp/wax/)
 - Slide show themes
 - Others?
 
-## Minicomp workshop @Penn
+## [Minicomp workshop @Penn](http://web.sas.upenn.edu/dream-lab/2018/09/14/minimal-computing/)
 
