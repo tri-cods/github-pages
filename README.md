@@ -1,4 +1,6 @@
-# Session 1, Monday, May 6 (75 minutes)
+# Introduction  
+
+##Session 1, Monday, May 6 (75 minutes)
 
 ## Why learn Git and Github? Why not something else? (15 minutes) (Mike)
 - What can you use this for? Creating, sharing syllabi, presentations, etc.
