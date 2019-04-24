@@ -6,6 +6,12 @@ There are many ways to publish content on the web.  Github pages offers a no-cos
 
 - Here is an example course site from Swarthmore by Professor Rachel Sagner Buurma, English 035: [ The Rise of the Novel (and the rise of social media)](https://github.com/rbuurma/rise-2018/blob/master/Syllabus/Rise2018Syllabus.md)
 
+You can change the theme of your site to any publicly available theme on GitHub.  You are not limited to the themese offered when you first created your github pages site.  
+
+1) Find a theme that suits your purposes [here](https://github.com/topics/jekyll-themes)
+2) Having activated GitHub pages (see earlier section), go to your repository and find the `_config.yml` file.  
+3) Click on the file and then click on the pencil icon to `Edit this file`
+4) Add a line to the file like this `remote_theme: minicomp/ed`.  Here `minicomp` is the author's name and `ed` is the repository name. 
 
 [Alex Gil](https://www.elotroalex.com/) and [Marii Nyrop](http://marii.info/) at Columbia University Libraries have developed two custom themes for academic purposes. 
 
