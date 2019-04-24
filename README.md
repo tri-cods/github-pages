@@ -7,11 +7,12 @@
 - What are the affordances?
   - Situating your work in an open-source community
   - Version control
-  - 
+- Why minimal computing?
 - What are the challenges?
   - Steeper learning curve 
 - Collaborative writing
 - Ownership
+- Why does this tool exist and how did it get here?
 
 ## What is a repository? (15 minutes) (Andy)
 - Create Github account
@@ -43,13 +44,8 @@
 
 ## Applying themes (30 minutes) (Workshop time)
 - Let's theme the syllabus we created yesterday
+- config.yml and why it's important (and yaml metadata)
 - use any [public theme](https://github.blog/2017-11-29-use-any-theme-with-github-pages/), [list of themes](https://github.com/topics/jekyll-theme)
-
-## Licensing (5 minutes) (Mike)
-
-## Other Github features (5 minutes) (Mike)
-- Projects
-- Wiki
 
 ## Purpose-built themes (10 minutes) (Andy)
 - [Ed](https://github.com/minicomp/ed)
@@ -57,5 +53,7 @@
 - Slide show themes
 - Others?
 
-## [Minicomp workshop @Penn](http://web.sas.upenn.edu/dream-lab/2018/09/14/minimal-computing/)
-
+## Other Github features (10 minutes) (Mike)
+- Projects
+- Wiki
+- Issues
