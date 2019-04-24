@@ -16,9 +16,11 @@ You can change the theme of your site to any publicly available theme on GitHub.
 3) Click on the file and then click on the pencil icon to `Edit this file`
 4) Add a line to the file like this `remote_theme: minicomp/ed`.  Here `minicomp` is the author's name and `ed` is the repository name. 
 
+___
+
 [Alex Gil](https://www.elotroalex.com/) and [Marii Nyrop](http://marii.info/) at Columbia University Libraries have developed two custom themes for academic purposes. 
 
-- The first is [Ed](https://github.com/minicomp/ed) a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility, durability, ease and flexibility.  Ed is well suited for online publication.  The font is dignified and readable.  There is a simple side navbar.
+- [Ed](https://github.com/minicomp/ed) a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility, durability, ease and flexibility.  Ed is well suited for online publication.  The font is dignified and readable.  There is a simple side navbar.
 
 - [Wax](https://github.com/minicomp/wax/) is a theme for producing scholarly exhibitions with minimal computing principles.  It is well suited for collections of images and other visual materials.  This could be photographs of archival documents, photographs or digital art. Wax is an excellent alternative to Omeka for curated exhibits and collections.     
 
