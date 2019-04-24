@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Outline
 ---
 
 ## Session 1, Monday, May 6 (75 minutes)
