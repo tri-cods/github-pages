@@ -5,6 +5,8 @@ There are many ways to publish content on the web.  Github pages offers a no-cos
 - One of the tri-co's main experts on academic publishing using Jekyll is [Nabil Kashyap](http://www.nabilk.com/). 
 Nabil frequently uses the [pixyll theme](https://github.com/johno/pixyll) or [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) for his sites. 
 
+- The [online-cv](https://github.com/sharu725/online-cv) theme has the formatting and layout for your CV. 
+
 - Here is an example course site from Swarthmore by Professor Rachel Sagner Buurma, English 035: [ The Rise of the Novel (and the rise of social media)](https://github.com/rbuurma/rise-2018/blob/master/Syllabus/Rise2018Syllabus.md)
 
 You can change the theme of your site to any publicly available theme on GitHub.  You are not limited to the themese offered when you first created your github pages site.  
