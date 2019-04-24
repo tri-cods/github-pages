@@ -34,3 +34,10 @@ Paragraphs of text are denoted by putting a blank line between them:
 Try using these five elements—headings, emphasis, lists, links, and paragraphs—to create a syllabus. Have a main heading that gives the course title (one #), then subheadings for, at least, course info and readings. Use emphasis (*) for book titles and try to get a list in there somewhere.
 
 You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/master/sections/syllabus.md).
+
+Your markdown in the Github browser-based editor will look like this:
+![Your markdown in the Github browser editor](static/github_markdown_editor.png)
+
+Note that in the tabbed bar at the top of the editor, there's a "Preview Changes" tab. You can use these tabs to toggle between the editor and the previewer. The previewer shows you what your markdown will look like when it is rendered:
+![Your markdown rendered in the Github preview](static/github_markdown_preview.png)
+
