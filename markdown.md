@@ -1,3 +1,9 @@
+---
+layout: narrative
+title: Markdown
+author: some guy
+---
+
 ## Markdown 
 
 ## Headings and Emphasis
