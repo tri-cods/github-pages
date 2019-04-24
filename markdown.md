@@ -1,3 +1,5 @@
+# Markdown 
+
 We'll be using markdown to create a syllabus, and then using Git to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension.
 
 In markdown, we insert headings with a single hash mark like this:
