@@ -1,5 +1,7 @@
-# Purpose-built themes
-
+---
+layout: page
+title: Purpose-built themes
+--- 
 There are many ways to publish content on the web.  Github pages offers a no-cost option for publishing your work online in a place that it is easily discovered by readers.  There is also a growing community of developers who are working to meet the needs of academic publishing and communications.  With purpose-built themes, you can create sites that better suit your project.  
 
 - One of the tri-co's main experts on academic publishing using Jekyll is [Nabil Kashyap](http://www.nabilk.com/). 
