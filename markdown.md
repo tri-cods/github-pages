@@ -1,5 +1,5 @@
 ---
-layout: narrative
+layout: page
 title: Introducing Markdown
 --- 
 
