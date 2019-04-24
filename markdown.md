@@ -1,7 +1,6 @@
 ---
 layout: narrative
-title: Markdown
-author: Mike Zarafonetis
+title: Introducing Markdown
 --- 
 
 ## Headings and Emphasis
