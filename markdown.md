@@ -1,10 +1,8 @@
 ---
 layout: narrative
 title: Markdown
-author: some guy
----
-
-## Markdown 
+author: Mike Zarafonetis
+--- 
 
 ## Headings and Emphasis
 
