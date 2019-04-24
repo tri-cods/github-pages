@@ -2,7 +2,8 @@
 
 Now that you have a GitHub repository, it's now time to share your work with the world.  GitHub pages offers a no-cost coding-optional way to publish your work to the internet.   
 
-1) In your repository, click on the settings icon. ![](https://github.com/tri-cods/github/raw/master/static/settings.png)  
+1) In your repository, click on the settings icon. 
+![](https://github.com/tri-cods/github/raw/master/static/settings.png)  
 2) Scroll down to the section for GitHub Pages
 ![](https://github.com/tri-cods/github/raw/master/static/github_pages.png)
 
