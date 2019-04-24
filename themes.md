@@ -3,6 +3,7 @@
 There are many ways to publish content on the web.  Github pages offers a no-cost option for publishing your work online in a place that it is easily discovered by readers.  There is also a growing community of developers who are working to meet the needs of academic publishing and communications.  With purpose-built themes, you can create sites that better suit your project.  
 
 - One of the tri-co's main experts on academic publishing using Jekyll is [Nabil Kashyap](http://www.nabilk.com/). 
+Nabil frequently uses the [pixyll theme](https://github.com/johno/pixyll) or [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) for his sites. 
 
 - Here is an example course site from Swarthmore by Professor Rachel Sagner Buurma, English 035: [ The Rise of the Novel (and the rise of social media)](https://github.com/rbuurma/rise-2018/blob/master/Syllabus/Rise2018Syllabus.md)
 
