@@ -23,7 +23,7 @@ To create a bulleted list, put a hyphen at the beginning of each list item:
 
 To create a link, put the anchor text (the text you will see) in square brackets and the URL in parentheses. Don't put a space between them:
 
-    I teach at [The Graduate Center, CUNY](https://www.gc.cuny.edu).
+    I am the Coordinator for Digital Scholarship and Research Services at [Haverford College Libraries](https://www.haverford.edu/library).
 
 Paragraphs of text are denoted by putting a blank line between them:
 
@@ -33,4 +33,4 @@ Paragraphs of text are denoted by putting a blank line between them:
 
 Try using these five elements—headings, emphasis, lists, links, and paragraphs—to create a syllabus. Have a main heading that gives the course title (one #), then subheadings for, at least, course info and readings. Use emphasis (*) for book titles and try to get a list in there somewhere.
 
-You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like this. 
+You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/master/sections/syllabus.md).
