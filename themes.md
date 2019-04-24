@@ -22,5 +22,7 @@ ___
 
 - [Ed](https://github.com/minicomp/ed) a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility, durability, ease and flexibility.  Ed is well suited for online publication.  The font is dignified and readable.  There is a simple side navbar.
 
-- [Wax](https://github.com/minicomp/wax/) is a theme for producing scholarly exhibitions with minimal computing principles.  It is well suited for collections of images and other visual materials.  This could be photographs of archival documents, photographs or digital art. Wax is an excellent alternative to Omeka for curated exhibits and collections.     
+- [Wax](https://github.com/minicomp/wax/) is a theme for producing scholarly exhibitions with minimal computing principles.  It is well suited for collections of images and other visual materials.  This could be photographs of archival documents, photographs or digital art. Wax is an excellent alternative to Omeka for curated exhibits and collections. 
+
+If you are interested in learning more about the features of these themes and their philosophy of minimal computing, Alex and Marii and teaching a course at the [Penn DReAM Lab  on June 10-14, 2019](http://web.sas.upenn.edu/dream-lab/2018/09/14/minimal-computing/).
 
