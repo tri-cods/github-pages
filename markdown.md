@@ -50,6 +50,6 @@ You can look at an example syllabus in raw text form [here](https://raw.githubus
 Your markdown in the Github browser-based editor will look like this:
 ![Your markdown in the Github browser editor](static/github_markdown_editor.png)
 
-Note that in the tabbed bar at the top of the editor, there's a "Preview Changes" tab. You can use these tabs to toggle between the editor and the previewer. The previewer shows you what your markdown will look like when it is rendered:
+Note that in the tabbed bar at the top of the editor, there's a "Preview Changes" tab. You can use these tabs to toggle between the editor and the preview. The preview shows you what your markdown will look like when it is rendered by Github:
 ![Your markdown rendered in the Github preview](static/github_markdown_preview.png)
 
