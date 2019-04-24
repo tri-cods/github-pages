@@ -1,4 +1,7 @@
-# Introduction  
+---
+layout: page
+title: Home
+---
 
 ##Session 1, Monday, May 6 (75 minutes)
 
