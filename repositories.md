@@ -1,4 +1,4 @@
-## What is a repository? :squirrel:
+## What is a repository? 
 
 In this section, we'll discuss how to create a GitHub repository for your project.  A repository is a space where all of the materials related to a project can be stored in the cloud. You can use GitHub to store, manage and publish your work. Every time that you add or change a file in the repository, Github will keep a record of what changes were made and by whom. Github is designed for collaboration.  You can make changes to a text while someone else is working on the same document. You can easily undo changes.  You can choose to make your Github repository open to the public or private.  You can easily publish your repository as a website using GitHub pages.   
 
