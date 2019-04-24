@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-##Session 1, Monday, May 6 (75 minutes)
+## Session 1, Monday, May 6 (75 minutes)
 
 ## Why learn Git and Github? Why not something else? (15 minutes) (Mike)
 - Why does this tool exist and how did it get here?
