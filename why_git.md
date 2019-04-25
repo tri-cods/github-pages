@@ -20,5 +20,3 @@ So, why use Github to publish a course website and not Wordpress, Weebly, or som
 - Version control for all site contents
 - Easy retrieval/export of data
 - Sharing your work in a way that allows for and encourages reuse
-
-## Tradeoffs
