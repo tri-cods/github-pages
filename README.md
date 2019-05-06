@@ -8,7 +8,7 @@
 
 ## [Introducing Markdown](markdown.md)
 
-## Create a course site 
+## [Create a course site](course_site.md)
 
 ----------
 
