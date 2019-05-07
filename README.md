@@ -20,4 +20,4 @@
 
 ## [Applying themes](themes.md)
 
-## Other Github features
+## [Other Github features](other-features.md)
