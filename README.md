@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# github-pages
-=======
 ## Workshop Outline
 
 ## Session 1, Monday, May 6
@@ -24,4 +21,3 @@
 ## [Applying themes](themes.md)
 
 ## [Other Github features](other_features.md)
->>>>>>> master
