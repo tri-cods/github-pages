@@ -12,26 +12,18 @@ Once you've added some text, you will want to 'save' your changes by using the "
 
 Now that you have a GitHub repository, it's now time to share your work with the world.  GitHub pages offers a no-cost coding-optional way to publish your work to the internet.   
 
-1) In your repository, click on the settings icon. 
+1) In your repository, Navigate to the "Settings" tab. 
 <img src="https://github.com/tri-cods/github/raw/master/static/settings.png" alt="settings button" height="50%">
 
-2) Scroll down to the section for GitHub Pages
-<img src="https://github.com/tri-cods/github/raw/master/static/github_pages.png" alt="github pages" height="42" width="42">
+1) On the left menu, scroll down to "Pages"
+<img src="https://github.com/tri-cods/github/raw/master/static/github_pages.png" alt="github pages">
 
-3) Change the `Source` box from `none` to `master branch`.  If you'd like to keep the published parts of your repository separated from other contents, you can select `master branch /docs folder` and only content in the docs folder will be published. 
+- Under Source, select "Deploy from a branch"
+
+1) Change the `Source` box from `none` to `main branch`. Click "Save"
 <img src="https://github.com/tri-cods/github/raw/master/static/set_source.png" alt="set source" width="50%">
 
-4) That's it.  Your content is now live on the web at <your user or organization name>.github.io/<your repository name> 
-5) If you own a domain name, you can use it as well (see [here](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages)).
-
-
-- Navigate to the "Settings" tab
-- On the left menu, select "Pages"
-- Under Source, select "Deploy from a branch"
-- Select "main" as the branch and click "Save"
-- Your site is ready to deploy! Be patient, because it may take a few minutes to build.
-
-
+1) That's it. Your site is ready to deploy! Be patient, because it may take a few minutes to build.
 
 ## Add collaborators
 
