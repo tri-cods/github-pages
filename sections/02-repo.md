@@ -31,10 +31,11 @@ You should see a form similar to the one below.
 * Enter a name for your repository.  I find it helpful to think of this as the your project's web address or title.  Any spaces in the project name will automatically be filled with at hyphen ("my project" becomes "my-project").
 
 - Choose public or private
-* Choose to make the repository public to anyone or private and visible only to your collaborators.
+* Choose to make the repository visible to anyone or visible only to your collaborators. Because we will be using GitHub Pages, choose "public".
 
 * Click on the box to **Initialize this repository with a README**
 
 * It is good practice to add a license. The defaults options when creating a repository are designed for open source software.  They ensure the rights of coders to share and alter each other's code. The option that is most like a traditional copyright for scholarship is Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).  This license does not allow the distribution, alteration or commercial use of your content. You can add this license by pasting the following into your README file: `[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)`
+
 
 [<<<Back](01-intro.md) | [Next>>>](03-deploy.md)
