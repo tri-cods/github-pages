@@ -1,4 +1,18 @@
-## Workshop Outline
+# GitHub Pages
+
+Workshop description
+
+## Why learn GitHub Pages?
+
+
+---
+
+## Outline
+- [Introduction](sections/01-intro.md)
+- [Activity: create a repository](sections/02-repo.md)
+- [Activity: set up GitHub Pages](sections/03-deploy.md)
+- [How GitHub Pages works]
+- [Activity: customize your site]
 
 ## Session 1, Monday, May 6
 
