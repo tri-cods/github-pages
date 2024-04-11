@@ -12,13 +12,13 @@ Workshop description
 - [Activity: create a repository](sections/02-repo.md)
 - [Activity: set up GitHub Pages](sections/03-deploy.md)
 - [How GitHub Pages works]
-- [Activity: customize your site]
+- [Activity: themes and customization](sections/05-customize.md)
 
 ## Session 1, Monday, May 6
 
 ## [Why Git and Github?](why_git.md)
 
-## [What is a repository?](repositories.md)
+## What is a repository?
 
 ## [Introducing Markdown](markdown.md)
 
@@ -30,7 +30,7 @@ Workshop description
 
 ## Session 1 debrief
 
-## [Introducing Github Pages](pages.md)
+## Introducing Github Pages
 
 ## [Applying themes](themes.md)
 
