@@ -3,7 +3,7 @@
 ## GitHub
 
 *The SaveAs workflow* 
-(add screenshots of saveas workflow)
+![SaveAs screenshot](https://raw.githubusercontent.com/tri-cods/github-pages/main/static/saveass.png)
 
 Before GoogleDocs, sharing documents and working on multiple drafts involved saving and resaving the same docx file. In other words, if you wanted to go read or even go back to a previous version of a project, you would just open a previous draft. Originally created to help manage versions of software development, GitHub is now a widely utilized tool accross fields to help manage and collaborate in projects by hosting files in repositories.
 
@@ -22,5 +22,7 @@ GitHub hosts Git projects. Although Git will not be the focus of these workshop,
 Markdown is a markup language (like HTML, xml, LaTex or SVG) used to format plain text. In fact, the pages in this workshop are written using Markdown.
 
 ![Markdown Screenshot](https://raw.githubusercontent.com/tri-cods/github-pages/main/static/markdown.png)
+
+## Let's create a repo....
     
 [<<<Back](README.md) | [Next>>>](sections/02-repo.md)

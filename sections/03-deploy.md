@@ -44,4 +44,4 @@ After your 'commit' history, you'll see a yellow dot that indicates your site is
 
 
 
-[<<<Back](02-repo.md) | [Next>>>]
+[<<<Back](02-repo.md) | [Next>>>](05-customize.md)

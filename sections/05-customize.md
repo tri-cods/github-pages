@@ -21,4 +21,4 @@
 - Edit your site title and tagline
 - Customize the theme using HTML and CSS
 
-[<<<Back]() | [Next>>>]()
+[<<<Back](03-deploy.md) | [Next>>>](06-resources.md)
