@@ -3,7 +3,7 @@
 ## GitHub
 
 *The SaveAs workflow* 
-![SaveAs screenshot](https://raw.githubusercontent.com/tri-cods/github-pages/main/static/saveass.png)
+![SaveAs screenshot](https://raw.githubusercontent.com/tri-cods/github-pages/main/static/saveas.png)
 
 Before GoogleDocs, sharing documents and working on multiple drafts involved saving and resaving the same docx file. In other words, if you wanted to go read or even go back to a previous version of a project, you would just open a previous draft. Originally created to help manage versions of software development, GitHub is now a widely utilized tool accross fields to help manage and collaborate in projects by hosting files in repositories.
 
