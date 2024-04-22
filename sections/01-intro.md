@@ -12,9 +12,9 @@ A repository is a space where all of the materials related to a project can be s
 
 ## Git
 
-GitHub hosts Git projects. Although Git will not be the focus of these workshop, it remains useful to understand the relationship between Git and GitHub. In a nutshell, Git is a version controll tool that allows you to have a "googledoc" type of functionality in your personal computer. Rather than saving multiple copies of a file using titles like _draft1_ or _draft2_, using Git versions your changes by saving a history of them in your computer. Unlike GitHub, to use Git you will need a basic understanding of how to use the Terminal (alhtough more and more text editors come with ways to incorporate Git that bypass the use of the Terminal)
+![Git gig](https://raw.githubusercontent.com/tri-cods/github-pages/main/static/git.gif)
 
-(add gif showing Git)
+GitHub hosts Git projects. Although Git will not be the focus of these workshop, it remains useful to understand the relationship between Git and GitHub. In a nutshell, Git is a version controll tool that allows you to have a "googledoc" type of functionality in your personal computer. Rather than saving multiple copies of a file using titles like _draft1_ or _draft2_, using Git versions your changes by saving a history of them in your computer. Unlike GitHub, to use Git you will need a basic understanding of how to use the Terminal (alhtough more and more text editors come with ways to incorporate Git that bypass the use of the Terminal)
 
 
 ## Markdown
