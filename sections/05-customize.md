@@ -18,7 +18,7 @@ Be sure to name your file `index.md`!
 
 <img src="../static/index.png" alt="Creating index.md file"/>
 
-Create a header on this page using a hashmark at the beginning of the line: `# Hello, world!` Then, add some additional text to the document. Need some placeholder text? Check out [Lit Ipsum](litipsum.com), a site that generates placeholder text text from a selection of public-domain British novels.
+Create a header on this page using a hashmark at the beginning of the line: `# Hello, world!` Then, add some additional text to the document. Need some placeholder text? Check out [Lit Ipsum](https://litipsum.com), a site that generates placeholder text text from a selection of public-domain British novels, or use the classic [Lorem Ipsum](https://www.lipsum.com/) passage exemplum from the early days of the printing press.
 
 Commit your changes and add a brief message about your edit.
 
