@@ -1,5 +1,17 @@
 [<<<Back](01-intro.md) | [Next>>>](03-deploy.md)
 
+# What is a repository?
+
+In this section, we'll discuss how to create a GitHub repository for your project. A repository is a space where all of the materials related to a project can be stored in the cloud. You can use GitHub to store, manage and publish your work. Every time that you add or change a file in the repository, Github will keep a record of what changes were made and by whom. Github is designed for collaboration. You can make changes to a text while someone else is working on the same document. Different versions (branches) of a text can be developed and then merged. You can easily undo changes. You can choose to make your Github repository open to the public or private. You can easily publish your repository as a website using GitHub pages.
+
+In this section, we will:
+
+- Create a Github account
+- Create a repository
+- Choose public or private
+- Add collaborators and teams
+- Begin writing a README file in markdown
+
 ## Create a Github account
 
 To begin with:
@@ -34,11 +46,11 @@ If you continue scrolling down, you'll notice that the contents of the README.md
 
 ## Edit the README
 
-The README file is the main documentation page for your project and developers use it to provide context about their project and sometimes instructions for how to use their code, but it will also be the default text for your GitHub Pages website, so let's add some text.
+The README file is the main documentation page for your project; developers use it to provide context about their project and sometimes instructions for how to use their code. Itt will also be the default content source for your GitHub Pages website, so let's add some text.
 
 <img src="../static/edit-file.png" alt="new repository form" width=50%/>
 
-Use the pencil icon on the right to edit this file. You'll notice that this looks different from a traditional text editor and that there's no formatting menu: that's because it's a markdown editor (in fact, the file extension .md is a markdown file). You can add formatting using [markdown syntax as described here]
+Use the pencil icon on the right to edit this file. You'll notice that this looks different from a traditional text editor and that there's no formatting menu: that's because it's a markdown editor (in fact, the file extension .md is a markdown file).
 
 Below the existing text, type a sentence or two. If you need suggestions, you can always use `Hello World!`
 
