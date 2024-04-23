@@ -24,9 +24,62 @@ Commit your changes and add a brief message about your edit.
 
 ## Config
 
-Another crucial file to add to your site is the `config.yml` file: it's a metadata file written in the YAML markup language
+Another crucial file to add to your site is the `config.yml` file: it's a metadata file written in the YAML markup language. The config.yml file includes crucial settings and metadata for your website, such as title, author, description, theme, and many more options. The `.yml` file extension indicates that the config.yml file is in the YAML markup language.
 
-## Themes
+### What is YAML? 
+
+Like Markdown, YAML (which allegedly stands for [YAML Ain't Markup Language](https://yaml.org/)) is designed to be both human-readable and machine readable. in YAML, attributes and values are expressed using a simple colon and a space, for example: 
+
+```YAML
+title: Axolotl
+description: The story of an adorable aquatic creature
+```
+
+The attribute `title` has the value `Axolotl`. 
+
+If you compare this to HTML, you can start to see why languages like YAML and Markdown were developed.
+
+```html
+<head>
+    <title>Axolotl</title>
+    <meta name="description" content="The story of an adorable aquatic creature">
+</head>
+```
+
+### Themes
+
+GitHub Pages sites are highly extensible, meaning that they are infinately customizable, but many customizations require some coding ability. Fortunately, there's a large community of developers creating and sharing open-source themes for Jekyll and GitHub Pages: website templates with layouts, stylesheets, and features that you can use for your site by adding a few lines of YAML to your  `_config.yml` file. There are hundreds of options for Jekyll themes, including several designed specifically for digital scholarship projects:
+
+- [Collection Builder](https://collectionbuilder.github.io/): a minimal digital exhibit builder featuring data visualizations
+- [Ed](https://minicomp.github.io/ed/): for digital editions and textual editing
+- [Wax](https://minicomp.github.io/wax/): a digital exhibit template
+
+Every theme has different documentation and some take longer to set up than others: for simplicity's sake, we recommend using one of [these themes supported by GitHub Pages](https://pages.github.com/themes/) while you're getting started. 
+
+### Activity: add a theme
+
+- From the main page of your repository, use the `+` button to "Create a new file". 
+
+- Name this new file `_config.yml` -- and don't forget to include the underscore!
+
+- Start by adding a site title and description:
+
+```yaml
+title: Your site title
+description: A short tagline for your site
+```
+
+- Next, add your theme. we'll start with the [Cayman Theme](https://pages-themes.github.io/cayman/), one of the GitHub Pages supported themes. Copy and paste the following into your config file:
+
+```yaml
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+```
+
+- Finally, **commit your changes**: don't forget to add a commit message!
+
+- Be patient as you wait for your site to re-build. 
 
 
 

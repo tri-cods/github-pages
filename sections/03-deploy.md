@@ -22,10 +22,6 @@ Now that you have a GitHub repository, it's now time to share your work with the
 
 1) That's it. Your site is ready to deploy! Be patient, because it may take a few minutes to build.
 
-## Add collaborators
-
-- Select "Add Collaborators"
-
 ## Your new site's url
 
 - Navigate back to the "Code" tab.
@@ -35,7 +31,11 @@ Now that you have a GitHub repository, it's now time to share your work with the
 
 Now you'll notice that a url has appeared. 
 
-After your 'commit' history, you'll see a yellow dot that indicates your site is in the process of deploying. Once the dot becomes a green check mark, navigate to your URL.
+After your 'commit' history, you'll see a yellow dot that indicates your site is in the process of deploying. 
+
+<img src="../static/progress-check.png" alt="view status of jekyll build">
+
+Once the dot becomes a green check mark, navigate to your URL and marvel at your new website.
 
 ## How it works
 
