@@ -3,7 +3,6 @@
 # Deploying a GitHub Pages Site
 
 
-
 ## Activate Pages
 
 Now that you have a GitHub repository, it's now time to share your work with the world.  GitHub pages offers a no-cost coding-optional way to publish your work to the internet.   
