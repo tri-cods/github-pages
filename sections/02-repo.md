@@ -61,7 +61,7 @@ If you continue scrolling down, you'll notice that the contents of the README.md
 
 <img src="../static/edit-file.png" alt="new repository form" width=50%/>
 
-Use the pencil icon on the right to edit this file. You'll notice that this looks different from a traditional text editor and that there's no formatting menu: that's because it's a markdown editor (in fact, the file extension .md is a markdown file).
+Use the pencil icon on the right to edit this file. You'll notice that this looks different from a traditional text editor and that there's no formatting menu: that's because it's a markdown editor (in fact, the file extension .md is a markdown file). If you'd like to format your text using markdown, feel free to check out our [markdown guide](../more/markdown.md)
 
 Below the existing text, type a sentence or two. If you need suggestions, you can always use `Hello World!`
 
