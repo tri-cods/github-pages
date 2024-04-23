@@ -9,7 +9,7 @@
 Now that you have a GitHub repository, it's now time to share your work with the world.  GitHub pages offers a no-cost coding-optional way to publish your work to the internet.   
 
 1) In your repository, Navigate to the "Settings" tab. 
-<img src="../static/settings.png" alt="settings button" height="50%">
+<img src="../static/settings.png" alt="settings button" height="10%">
 
 1) On the left menu, scroll down to "Pages"
 <img src="../static/pages-settings.png" alt="github pages">

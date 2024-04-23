@@ -29,7 +29,7 @@ To create a new repository, log in to Github with the account that you created a
 
 You should see a form similar to the one below.  
 
-<img src="../static/new_repo.png" alt="new repository form" width="50%"/>
+<img src="../static/new_repo.png" alt="new repository form" width="60%"/>
 
 * Enter a name for your repository.  I find it helpful to think of this as the your project's web address or title.  Any spaces in the project name will automatically be filled with at hyphen ("my project" becomes "my-project").
 
@@ -56,6 +56,18 @@ Below the existing text, type a sentence or two. If you need suggestions, you ca
 
 Once you've added some text, you will want to 'save' your changes by using the "Commit changes" button. Enter a message that describes the change you just made.
 
+## Add collaborators
 
+GitHub is really designed to make collaboration easier and more transparent. To add collaborators to your new repository, navigate to the  "Settings" tab. <img src="../static/settings.png" alt="settings button" width="10%">
+
+Select "Collaborators" at the top of the left hand menu. You'll be able to see who can view your files and who has direct access to edit your repository.
+
+<img src="../static/manage-access.png" alt="Collaborators tab" width="60%">
+
+To add collaborators, select "Add people." You'll be able to add anyone with a GitHub account.
+
+<img src="../static/add-collab.png" alt="settings button" width="50%">
+
+For now, add Roberto (@betovargas) and Alice (@atmcgrath) as collaborators on your site.
 
 [<<<Back](01-intro.md) | [Next>>>](03-deploy.md)
