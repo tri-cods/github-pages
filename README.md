@@ -22,27 +22,32 @@ Github pages offers a robust ecosystem on wich to create a site that both follow
 - [Introduction](sections/01-intro.md)
 - [Activity: create a repository](sections/02-repo.md)
 - [Activity: set up GitHub Pages](sections/03-deploy.md)
-- [How GitHub Pages works]
+- [How GitHub Pages works](sections/04-how.md)
 - [Activity: themes and customization](sections/05-customize.md)
 
-## Session 1, Monday, May 6
+### Resources
+- [Markdown guide](more/markdown.md)
 
-## [Why Git and Github?](why_git.md)
+---
 
-## What is a repository?
+## Old
 
-## [Introducing Markdown](markdown.md)
+### Session 1, Monday, May 6
 
-## [Create a course site](course_site.md)
+- [Why Git and Github?](why_git.md)
 
-----------
+- What is a repository?
 
-# Session 2, Tuesday, May 7
+- [Introducing Markdown](more/markdown.md)
 
-## Session 1 debrief
+- [Create a course site](course_site.md)
 
-## Introducing Github Pages
+### Session 2, Tuesday, May 7
 
-## [Applying themes](themes.md)
+- Session 1 debrief
 
-## [Other Github features](other_features.md)
+- Introducing Github Pages
+
+- [Applying themes](themes.md)
+
+- [Other Github features](other_features.md)

@@ -26,4 +26,4 @@ Markdown is a markup language (like HTML, xml, LaTex or SVG) used to format plai
 
 ## Let's create a repo....
     
-[<<<Back](README.md) | [Next>>>](sections/02-repo.md)
+[<<<Back](../README.md) | [Next>>>](02-repo.md)
