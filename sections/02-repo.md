@@ -2,13 +2,12 @@
 
 # What is a repository?
 
-In this section, we'll discuss how to create a GitHub repository for your project. A repository is a space where all of the materials related to a project can be stored in the cloud. You can use GitHub to store, manage and publish your work. Every time that you add or change a file in the repository, Github will keep a record of what changes were made and by whom. Github is designed for collaboration. You can make changes to a text while someone else is working on the same document. Different versions (branches) of a text can be developed and then merged. You can easily undo changes. You can choose to make your Github repository open to the public or private. You can easily publish your repository as a website using GitHub pages.
+In this section, we'll discuss how to create a GitHub repository for your project in order to store, manage, and publish your work. A repository is a unit of organization (think a directory or folder of files) where all of the materials related to a single project can be stored in the cloud. Every time that you add or edit a file in the repository, Github will keep a record of what changes were made and by whom: Github is designed for collaboration, so you can make changes to a text while someone else is working on the same document. Different versions (branches) of a text can be developed and then merged. You can easily undo changes. You can easily publish your repository as a website using GitHub pages.
 
 In this section, we will:
 
 - Create a Github account
 - Create a repository
-- Choose public or private
 - Add collaborators and teams
 - Begin writing a README file in markdown
 
@@ -38,23 +37,7 @@ You should see a form similar to the one below.
 
 * It is good practice to add a license for any content. The defaults options when creating a repository are designed for open source software.  They ensure the rights of coders to share and alter each other's code. The option that is most like a traditional copyright for scholarship is Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).  This license does not allow the distribution, alteration or commercial use of your content. You can add this license by pasting the following into your README file: `[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)`
 
-## An orientation
 
-So, let's take a look at your repository. If you scroll down, you'll see a list of files and folders within your repository. Currently, your repository is empty except for a file called "README.md". On the same line as the filename, you'll see a message and a timestamp: this indicates the last time this file was edited and the editor's description of their changes.
-
-If you continue scrolling down, you'll notice that the contents of the README.md file also appear on the main page of your repository. You'll probably see the repository name and no other text.
-
-## Edit the README
-
-The README file is the main documentation page for your project; developers use it to provide context about their project and sometimes instructions for how to use their code. Itt will also be the default content source for your GitHub Pages website, so let's add some text.
-
-<img src="../static/edit-file.png" alt="new repository form" width=50%/>
-
-Use the pencil icon on the right to edit this file. You'll notice that this looks different from a traditional text editor and that there's no formatting menu: that's because it's a markdown editor (in fact, the file extension .md is a markdown file).
-
-Below the existing text, type a sentence or two. If you need suggestions, you can always use `Hello World!`
-
-Once you've added some text, you will want to 'save' your changes by using the "Commit changes" button. Enter a message that describes the change you just made.
 
 ## Add collaborators
 
@@ -69,5 +52,23 @@ To add collaborators, select "Add people." You'll be able to add anyone with a G
 <img src="../static/add-collab.png" alt="settings button" width="50%">
 
 For now, add Roberto (@betovargas) and Alice (@atmcgrath) as collaborators on your site.
+
+## Edit the README.md
+
+Return to the "Code" tab or main page of your repository. If you scroll down, you'll see a list of files and folders within your repository. Currently, your repository is empty except for a file called "README.md". On the same line as the filename, you'll see a message and a timestamp: this indicates the last time this file was edited and the editor's description of their changes.
+
+If you continue scrolling down, you'll notice that the contents of the README.md file also appear on the main page of your repository. You'll probably see the repository name and no other text. The README file is the main documentation page for your project; developers use it to provide context about their project and sometimes instructions for how to use their code. Itt will also be the default content source for your GitHub Pages website, so let's add some text.
+
+<img src="../static/edit-file.png" alt="new repository form" width=50%/>
+
+Use the pencil icon on the right to edit this file. You'll notice that this looks different from a traditional text editor and that there's no formatting menu: that's because it's a markdown editor (in fact, the file extension .md is a markdown file).
+
+Below the existing text, type a sentence or two. If you need suggestions, you can always use `Hello World!`
+
+Once you've added some text, you will want to 'save' your changes by using the "Commit changes" button. 
+
+<img src="../static/commit.png" alt="new repository form" width=50%/>
+
+In the "Commit message" field, add a message that describes the change you just made. Then select "Commit changes" so that  your edits will be integrated into the existing file.
 
 [<<<Back](01-intro.md) | [Next>>>](03-deploy.md)

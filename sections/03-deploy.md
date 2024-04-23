@@ -1,4 +1,4 @@
-[<<<Back](02-repo.md) | [Next>>>]
+[<<<Back](02-repo.md) | [Next>>>](04-how.md)
 
 # Deploying a GitHub Pages Site
 
@@ -42,4 +42,4 @@ After your 'commit' history, you'll see a yellow dot that indicates your site is
 
 While we wait for the site to build, let's take a look at what's going on under the hood.
 
-[<<<Back](02-repo.md) | [Next>>>](05-customize.md)
+[<<<Back](02-repo.md) | [Next>>>](04-how.md)
