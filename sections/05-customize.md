@@ -69,7 +69,8 @@ title: Your site title
 description: A short tagline for your site
 ```
 
-- Next, add your theme. we'll start with the [Cayman Theme](https://pages-themes.github.io/cayman/), one of the GitHub Pages supported themes. Copy and paste the following into your config file:
+- Next, add your theme. we'll start with the [Cayman Theme](https://pages-themes.github.io/cayman/), one of the GitHub Pages supported themes. Here's the GitHub repository with documentation for Cayman: https://github.com/pages-themes/cayman
+- Copy and paste the following into your config file:
 
 ```yaml
 remote_theme: pages-themes/cayman@v0.2.0
@@ -85,11 +86,14 @@ plugins:
 
 ## The GitHub code editor
 
+
+
 ## Activity: customizing your site
 
 - Add an index.md file and add text and images using Markdown
 - Create a _config.yml file and add a theme
 - Edit your site title and tagline
+- 
 - Customize the theme using HTML and CSS
 
 [<<<Back](04-how.md) | [Next>>>](06-resources.md)
