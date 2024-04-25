@@ -46,7 +46,7 @@ If you compare this to HTML, you can start to see why languages like YAML and Ma
 </head>
 ```
 
-### Themes
+## Themes
 
 GitHub Pages sites are highly extensible, meaning that they are infinately customizable, but many customizations require some coding ability. Fortunately, there's a large community of developers creating and sharing open-source themes for Jekyll and GitHub Pages: website templates with layouts, stylesheets, and features that you can use for your site by adding a few lines of YAML to your  `_config.yml` file. There are hundreds of options for Jekyll themes, including several designed specifically for digital scholarship projects:
 
@@ -82,6 +82,24 @@ plugins:
 
 - Be patient as you wait for your site to re-build. 
 
+### What's in a theme?
+
+What exactly does adding a theme do? The `remote_theme` variable in your config file tells GitHub pages where to look for the files that govern the structure and style of your site. Then, it plugs your content (from Markdown and YAML) into the theme's variables, and builds the website. Because these themes are all open source on GitHub, you can see exactly how your theme works by going to the GitHub repository for Cayman: https://github.com/pages-themes/cayman. It may be a little overwhelming at first, but once you get oriented, you can use these files to customize your site even further.
+
+### Structure
+
+Most website content is structured using HTML, which governs the sections of a webpage. In this theme, most of the HTML is found in the`_layouts` folder. Let's take a look.
+
+`default.html` sets the basic structure of each page in your site. If you've seen HTML before, you might notice that this file looks a little different: that's because it also uses a language called [Liquid](https://shopify.github.io/liquid/). That is how the YAML variables you add to your pages and your config file get plugged in to the layout. You'll notice that there's a section `{{ content }}`
+
+### Style
+
+While HTML provides the core structure of most web pages, the style (including color, size, font, shape, and how the look changes on different screen sizes) is governed by another language called **CSS** or Cascading Style Sheets. Jekyll uses a slightly different version of CSS called SCSS. You'll find these files in the `_sass` folder, which has a lot going on. Fortunately, Cayman offers simplified instructions for adding your own [Stylesheet](https://github.com/pages-themes/cayman/tree/master?tab=readme-ov-file#stylesheet).
+
+
+
+## Markdown, YAML, Liquid??
+
 
 
 ## The GitHub code editor
@@ -93,7 +111,6 @@ plugins:
 - Add an index.md file and add text and images using Markdown
 - Create a _config.yml file and add a theme
 - Edit your site title and tagline
-- 
 - Customize the theme using HTML and CSS
 
 [<<<Back](04-how.md) | [Next>>>](06-resources.md)
