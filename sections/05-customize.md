@@ -60,6 +60,8 @@ Every theme has different documentation and some take longer to set up than othe
 
 - From the main page of your repository, use the `+` button to "Create a new file". 
 
+<img src="../static/add-file.png" alt="Add a new file to your repository" width="40%"/>
+
 - Name this new file `_config.yml` -- and don't forget to include the underscore!
 
 - Start by adding a site title and description:
@@ -94,7 +96,7 @@ Fortunately, Cayman offers simplified instructions for adding your own [Styleshe
 
 ### Activity: Adding a custom stylesheet
 
-- From your repository's main page, add a new file
+- From the main page of your repository, use the `+` button to "Create a new file". 
   
 - In the title field, type the name `/assets/css/style.scss`
 
@@ -122,14 +124,39 @@ h2 {
 
 ```
 
+- Make sure the filename and first 4 lines look like this:
+
+<img src="../static/stylesheet.png" alt="adding stylesheet demo" width="100%"/>
+
 - Commit your changes with a message explaining what you've done.
 
 ### Structure
 
-Most website content is structured using HTML, which governs the sections of a webpage. In this theme, most of the HTML is found in the`_layouts` folder. Let's take a look.
+As we discussed in the last section, the version of your website that you see is an HTML file that is built using your content and the Cayman theme's structure and style. We've seen how to add content to your site via the markdown file, as well as how to add an additional stylesheet that will override the stylesheet built into the theme. But what if you want to change something in the HTML itself -- such as the links in the heading? Well, this is when understanding the structure of your theme comes in handy. Let's take a look.
 
-`default.html` sets the basic structure of each page in your site. If you've seen HTML before, you might notice that this file looks a little different: that's because it also uses a language called [Liquid](https://shopify.github.io/liquid/). That is how the YAML variables you add to your pages and your config file get plugged in to the layout. You'll notice that there's a section `{{ content }}`
+In the Cayman theme, like many other Jekyll themes, most of the HTML is found in the`_layouts` folder. In this case, there's only one layout: `default.html`. This file sets the basic structure of each page in your site. If you've seen HTML before, you might notice that this file looks a little different: that's because it also uses a language called [Liquid](https://shopify.github.io/liquid/). That is how the YAML variables you add to your pages and your config file get plugged in to the layout. 
 
+You'll notice at line 30, that there's a variable called `content`
+
+```html
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+```
+
+This variable represents the body of your markdown file, so everything you add as markdown will go here. 
+
+When GitHub Pages builds your site, it starts by looking at your repository for specific settings, metadata, and content. Then it looks to your theme for anything it doesn't find. So in order to edit the default layout, all you need to do is copy this `default.html` file into your repository in the place where it's expected, and make any changes you want.
+
+### Activity: customize the structure
+
+- In your Pages repository, use the `+` button to create a new file
+- Give the file the name `_layouts/default.html` (this will create a folder in your repository called `_layouts`)
+- In a new tab or browser window, navigate to the [default layout file in Cayman](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html)
+- Click 'Copy raw file' to copy the full contents of `default.html`
+
+<img src="../static/copyraw.png" alt="copy raw contents" width="20%"/>
+
+- Return to your Pages repository and paste the contents into the editor window.
 
 
 
