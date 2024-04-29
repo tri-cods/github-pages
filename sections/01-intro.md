@@ -20,7 +20,7 @@ GitHub hosts Git projects. Although Git will not be the focus of these workshop,
 
 ## Markdown
 
-Markdown is a markup language (like HTML, xml, LaTex or SVG) used to format plain text. In fact, the pages in this workshop are written using Markdown.
+Markdown is a markup language (like HTML, xml, LaTex or SVG) used to format plain text. In fact, the pages in this workshop are written using Markdown. More later...
 
 ![Markdown Screenshot](https://raw.githubusercontent.com/tri-cods/github-pages/main/static/markdown.png)
 
