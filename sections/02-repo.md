@@ -24,19 +24,16 @@ Go to [Github.com/signup](https://github.com/signup) and enter your information.
 
 To create a new repository, log in to Github with the account that you created above and click on the plus button in the upper right corner. Select "New repository":
 
-<img src="../static/create-repo.png" alt="new repository button" width="50%"/>
+<img src="../static/create-repo.png" alt="new repository button" width="40%"/>
 
 You should see a form similar to the one below.  
 
-<img src="../static/new_repo.png" alt="new repository form" width="60%"/>
+<img src="../static/new_repo.png" alt="new repository form" width="100%"/>
 
 * Enter a name for your repository.  I find it helpful to think of this as the your project's web address or title.  Any spaces in the project name will automatically be filled with at hyphen ("my project" becomes "my-project").
 
 - **Public** vs. **Private**: choose to make the repository visible to anyone or visible only to your collaborators. Because we will be using GitHub Pages to publish websites, choose "public".
 * Click on the box to **Initialize this repository with a README**
-
-* It is good practice to add a license for any content. The defaults options when creating a repository are designed for open source software.  They ensure the rights of coders to share and alter each other's code. The option that is most like a traditional copyright for scholarship is Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).  This license does not allow the distribution, alteration or commercial use of your content. You can add this license by pasting the following into your README file: `[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)`
-
 
 
 ## Add collaborators
@@ -45,7 +42,7 @@ GitHub is really designed to make collaboration easier and more transparent. To 
 
 Select "Collaborators" at the top of the left hand menu. You'll be able to see who can view your files and who has direct access to edit your repository.
 
-<img src="../static/manage-access.png" alt="Collaborators tab" width="60%">
+<img src="../static/manage-access.png" alt="Collaborators tab" width="100%">
 
 To add collaborators, select "Add people." You'll be able to add anyone with a GitHub account.
 

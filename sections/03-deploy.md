@@ -24,10 +24,18 @@ Now that you have a GitHub repository, it's now time to share your work with the
 
 ## Your new site's url
 
-- Navigate back to the "Code" tab.
-- Edit your "about" details: include a short description
-- Under "Website", select "use GitHub Pages URL"
+The URL to your GitHub Pages site will follow this formula: `username.github.io/repo-name` -- let's make it easier to find.
+
+- Navigate back to the "Code" tab, or main page to your repository. Edit your "About" details by clicking on the gear in the top right corner.
+
+<img src="../static/edit-about.png" alt="edit about section" width="40%">
+
+- Write a short description of your repository. 
+- Under "Website", check the box to select "use GitHub Pages URL"
 - Save your changes
+
+<img src="../static/repo-details.png" alt="repository details" width="60%">
+
 
 Now you'll notice that a url has appeared. 
 
