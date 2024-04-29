@@ -44,10 +44,10 @@ To create a link, put the anchor text (the text you will see) in square brackets
 
 ## Images
 
-An image is similar to a link but begins with an exclamation mark.
+An image is similar to a link but begins with an exclamation mark: in square brackets add alternative text describing the image (aka 'alt text'), and in parentheses add the url or path to that image.
 
 ```md
-![Alternative text describing the image](imageurl)
+![A pink axolotl in a tank](https://alicemcgrath.digital.brynmawr.edu/simple-site/images/janeway.jpg)
 ```
 
 ## Paragraphs
@@ -60,13 +60,12 @@ Paragraphs of text are denoted by putting a blank line between them:
 
 ## The Github Text Editor
 
-Using these five elements—headings, emphasis, lists, links, and paragraphs—you can create a syllabus or course site. 
+Using these elements -- headings, emphasis, lists, links, images, and paragraphs -- you can build a wide variety of content. 
 
 You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/master/sections/syllabus.md).
 
 Your markdown in the Github browser-based editor will look like this:
-![Your markdown in the Github browser editor](static/github_markdown_editor.png)
+![Your markdown in the Github browser editor](../static/github_markdown_editor.png)
 
 Note that in the tabbed bar at the top of the editor, there's a "Preview Changes" tab. You can use these tabs to toggle between the editor and the preview. The preview shows you what your markdown will look like when it is rendered by Github:
-![Your markdown rendered in the Github preview](static/github_markdown_preview.png)
-
+![Your markdown rendered in the Github preview](../static/github_markdown_preview.png)
