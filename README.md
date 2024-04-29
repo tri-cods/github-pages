@@ -27,5 +27,7 @@ Github pages offers a robust ecosystem on wich to create a site that both follow
 
 ### Resources
 - [Markdown guide](more/markdown.md)
+- [Why git?](more/why_git.md)
+- [Other features of GitHub](more/other_features.md)
 
 ---
