@@ -36,17 +36,16 @@ The URL to your GitHub Pages site will follow this formula: `username.github.io/
 
 <img src="../static/repo-details.png" alt="repository details" width="60%">
 
+Now you'll notice that a url has appeared.
 
-Now you'll notice that a url has appeared. 
+## Waiting for GitHub Pages
 
-After your 'commit' history, you'll see a yellow dot that indicates your site is in the process of deploying. 
+From your main page, you should be able to tell whether GitHub Pages has finished deploying your site.  After your latest 'commit', you'll see a brownish-yellow dot or a green check mark.
 
 <img src="../static/progress-check.png" alt="view status of jekyll build">
 
-Once the dot becomes a green check mark, navigate to your URL and marvel at your new website.
+The dot indicates that your site is in the process of deploying. Once the dot becomes a green check mark, navigate to your URL and marvel at your new website! 
 
-## How it works
-
-While we wait for the site to build, let's take a look at what's going on under the hood.
+Sometimes this process takes a few minutes. While we wait for the site to build, let's talk about what it's doing.
 
 [<<<Back](02-repo.md) | [Next>>>](04-how.md)
