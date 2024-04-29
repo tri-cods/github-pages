@@ -5,7 +5,7 @@ title: Introducing Markdown
 
 ## Headings and Emphasis
 
-We'll be using markdown to create a syllabus, and then using Git to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension.
+Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension.
 
 In markdown, we insert headings with a single hash mark like this:
 
@@ -26,15 +26,29 @@ For emphasis, you need to mark where it should start and where it should end, so
 
 To create a bulleted list, put a hyphen at the beginning of each list item:
 
-    - Reading one
-    - Reading two
-    - Reading three
+    - Something
+    - Another thing
+    - One more thing
+
+For a numbered list, use a number followed by a period at the beginning of each list item:
+
+    1. First thing
+    2. Second thing
+    3. Third thing
 
 ## Links
 
 To create a link, put the anchor text (the text you will see) in square brackets and the URL in parentheses. Don't put a space between them:
 
-    I am the Coordinator for Digital Scholarship and Research Services at [Haverford College Libraries](https://www.haverford.edu/library).
+    I work at [Bryn Mawr College](https://www.brynmawr.edu/).
+
+## Images
+
+An image is similar to a link but begins with an exclamation mark.
+
+```md
+![Alternative text describing the image](imageurl)
+```
 
 ## Paragraphs
 

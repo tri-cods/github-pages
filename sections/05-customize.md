@@ -2,7 +2,7 @@
 
 # Customizing your GitHub Pages Site
 
-In this section we'll explore a few crucial files that you can use to change settings in your GitHub Pages site, and then go over how to add a theme to make your site more attractive. 
+In this section we'll explore a few crucial files that you can use to change settings in your GitHub Pages site, and then go over how to add a theme to make your site more attractive.
 
 ## Index
 
@@ -24,27 +24,8 @@ Commit your changes and add a brief message about your edit.
 
 ## Config
 
-Another crucial file to add to your site is the `config.yml` file: it's a metadata file written in the YAML markup language. The config.yml file includes crucial settings and metadata for your website, such as title, author, description, theme, and many more options. The `.yml` file extension indicates that the config.yml file is in the YAML markup language.
+Another crucial file to add to your site is the `config.yml` file: it's a metadata file written in the YAML markup language. The config.yml file includes crucial settings and metadata for your website, such as title, author, description, theme, and many more options. The `.yml` file extension indicates that the config.yml file is in the [YAML](https://yaml.org/) markup language.
 
-### What is YAML? 
-
-Like Markdown, YAML (which allegedly stands for [YAML Ain't Markup Language](https://yaml.org/)) is designed to be both human-readable and machine readable. in YAML, attributes and values are expressed using a simple colon and a space, for example: 
-
-```YAML
-title: Axolotl
-description: The story of an adorable aquatic creature
-```
-
-The attribute `title` has the value `Axolotl`. 
-
-If you compare this to HTML, you can start to see why languages like YAML and Markdown were developed.
-
-```html
-<head>
-    <title>Axolotl</title>
-    <meta name="description" content="The story of an adorable aquatic creature">
-</head>
-```
 
 ## Themes
 
@@ -178,7 +159,7 @@ Once you get into these advanced customizations, you may feel limited by the in-
 
 To open the github.dev editor, navigate to any file and open the dropdown menu next to the pencil button. Select 'Open with github.dev'.
 
-<img src="../static/githubdev.png" alt="open github.dev editor" width="40%"/>
+<img src="../static/githubdev.png" alt="open github.dev editor" width="30%"/>
 
 Once your editor has loaded, you will see a window very similar to the code editor VS Code. On the left sidebar, you'll see all the folders and files in your repository. You can use these to quickly navigate between files. 
 
@@ -192,7 +173,7 @@ Once you've made a change to your repository, you'll notice that the git button 
 
 Click on the git button to review and commit these changes. Describe the changes you made in the 'Message' field and then click "Commit & Push" to update your repository.
 
-<img src="../static/ghdev-commit.png" alt="Committing in the github dev editor" width="100%"/>
+<img src="../static/ghdev-commit.png" alt="Committing in the github dev editor" width="40%"/>
 
 
 
@@ -200,7 +181,7 @@ Click on the git button to review and commit these changes. Describe the changes
 
 1. Open your repository in the github.dev editor
 
-2. Build out the content of your site by editing `index.md`. Use markdown syntax to add headers, images, lists, and links.
+2. Build out the content of your site by editing `index.md`. Use markdown syntax to add headers, images, lists, and links -- refer to our [markdown guide](../more/markdown.md) 
 
 3. Create a new page for your site by adding a new markdown file to your repository
 
