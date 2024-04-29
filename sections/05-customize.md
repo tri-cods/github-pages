@@ -86,19 +86,52 @@ plugins:
 
 What exactly does adding a theme do? The `remote_theme` variable in your config file tells GitHub pages where to look for the files that govern the structure and style of your site. Then, it plugs your content (from Markdown and YAML) into the theme's variables, and builds the website. Because these themes are all open source on GitHub, you can see exactly how your theme works by going to the GitHub repository for Cayman: https://github.com/pages-themes/cayman. It may be a little overwhelming at first, but once you get oriented, you can use these files to customize your site even further.
 
+### Style
+
+While HTML provides the core structure of most web pages, the style (including color, size, font, shape, and how the look changes on different screen sizes) is governed by another language called **CSS** or Cascading Style Sheets. Jekyll uses a slightly different version of CSS called SCSS. You'll find these files in the `_sass` folder, which has a lot going on. 
+
+Fortunately, Cayman offers simplified instructions for adding your own [Stylesheet](https://github.com/pages-themes/cayman/tree/master?tab=readme-ov-file#stylesheet), so you can customize your color scheme, fonts, layout, and a variety of other features.
+
+### Activity: Adding a custom stylesheet
+
+- From your repository's main page, add a new file
+  
+- In the title field, type the name `/assets/css/style.scss`
+
+- Add this content to your file -- feel free to copy and paste so the content is identical:
+
+```scss
+---
+---
+
+@import "{{ site.theme }}";
+
+```
+
+- Below the `@import` line, add some custom CSS. Need inspiration? Start by changing the color of your heading text:
+
+```css
+
+h1 {
+    color: pink;
+}
+
+h2 {
+    color: yellow;
+}
+
+```
+
+- Commit your changes with a message explaining what you've done.
+
 ### Structure
 
 Most website content is structured using HTML, which governs the sections of a webpage. In this theme, most of the HTML is found in the`_layouts` folder. Let's take a look.
 
 `default.html` sets the basic structure of each page in your site. If you've seen HTML before, you might notice that this file looks a little different: that's because it also uses a language called [Liquid](https://shopify.github.io/liquid/). That is how the YAML variables you add to your pages and your config file get plugged in to the layout. You'll notice that there's a section `{{ content }}`
 
-### Style
-
-While HTML provides the core structure of most web pages, the style (including color, size, font, shape, and how the look changes on different screen sizes) is governed by another language called **CSS** or Cascading Style Sheets. Jekyll uses a slightly different version of CSS called SCSS. You'll find these files in the `_sass` folder, which has a lot going on. Fortunately, Cayman offers simplified instructions for adding your own [Stylesheet](https://github.com/pages-themes/cayman/tree/master?tab=readme-ov-file#stylesheet).
 
 
-
-## Markdown, YAML, Liquid??
 
 
 
