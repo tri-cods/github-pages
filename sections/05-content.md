@@ -54,7 +54,7 @@ Every theme has different documentation and some take longer to set up than othe
 
 <img src="../static/index.png" alt="Creating index.md file"/>
 
-- Create a header on this page using a hashmark at the beginning of the line: `# Hello, world!` Then, add some additional text to the document. Need some placeholder text? Check out [Lit Ipsum](https://litipsum.com), a site that generates placeholder text text from a selection of public-domain British novels, or use the classic [Lorem Ipsum](https://www.lipsum.com/) passage exemplum from the early days of the printing press.
+- Create a header on this page using a hashmark at the beginning of the line: `# Hello, world!` Then, add some additional text to the document. 
 
 - Commit your changes and add a brief message about your edit.
 
@@ -153,10 +153,16 @@ layout: default
 
 ### Activity: adding content to your site
 
-1. Find one or two images you'd like to link to or add to your site.
+Build out the content of your site by editing your `index.md`. Use markdown syntax to add headers, images, lists, and links -- refer to our [markdown guide](../more/markdown.md) as needed.
 
-2. Build out the content of your site by editing `index.md`. Use markdown syntax to add headers, images, lists, and links -- refer to our [markdown guide](../more/markdown.md) 
+Need some placeholder text? Check out [Lit Ipsum](https://litipsum.com), a site that generates placeholder text text from a selection of public-domain British novels, as an alternative to the [Lorem Ipsum](https://www.lipsum.com/) passage exemplum from the early days of the printing press.
 
-3. Create a new page for your site by adding a new markdown file to your repository. Create links to help you navigate between pages.
+Add one or two images to your site. These can be linked from elsewhere or uploaded directly to your repository. Make sure that anything you upload to your site does not have rights restrictions: here are some recommendations for adding rights-free media:
+
+- [Wikimedia Commons](https://commons.wikimedia.org/) images: you can link to these directly by clicking "use this file on the web" and copying and pasting the File URL
+- [Unsplash.com](https://unsplash.com/) offers free-to-use stock photos by professional photographers. Download an image you like (I recommend using the small resolution size) and give credit to the photographer.
+- [Free to Reuse sets from the Library of Congress](https://www.loc.gov/free-to-use/): eclectic media from their collections without rights restrictions.
+
+Create a new page for your site by adding a new markdown file to your repository -- add a YAML header and to indicate the page title as well as links to navigate between your pages or internally on a page.
 
 [<<<Back](04-how.md) | [Next>>>](06-customize.md)
