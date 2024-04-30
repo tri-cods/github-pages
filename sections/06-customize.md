@@ -24,7 +24,7 @@ As you can see, this only works on the level of the element, so it isn't very ef
 
 ## Adding a Stylesheet
 
-While HTML provides the core structure of most web pages, the style (including color, size, font, shape, and how the look changes on different screen sizes) is governed by another language called **CSS** or Cascading Style Sheets.[^1] When I added the style attribute above, I was writing CSS directly into the HTML element, but it usually exists in a separate file called a stylesheet. Creating a custom stylesheet is the best way to control your color scheme, fonts, layouts, and a variety of other features. The easiest way to do this depends on the details of the theme you are using. Fortunately, the theme we are using (Cayman) offers [simplified instructions for adding your own CSS stylesheet](https://github.com/pages-themes/cayman/tree/master?tab=readme-ov-file#stylesheet).
+While HTML provides the core structure of most web pages, the style (including color, size, font, shape, and how the look changes on different screen sizes) is governed by another language called **CSS** or Cascading Style Sheets. When I added the style attribute above, I was writing CSS directly into the HTML element, but it usually exists in a separate file called a stylesheet. Creating a custom stylesheet is the best way to control your color scheme, fonts, layouts, and a variety of other features. The easiest way to do this depends on the details of the theme you are using. Fortunately, the theme we are using (Cayman) offers [simplified instructions for adding your own CSS stylesheet](https://github.com/pages-themes/cayman/tree/master?tab=readme-ov-file#stylesheet).
 
 - From the main page of your repository, use the `+` button to "Create a new file". 
   
@@ -60,15 +60,24 @@ h2 {
 
 - Commit your changes with a message explaining what you've done.
 
-### What's in a theme?
+Note: technically Jekyll sites use a combination of CSS, SCSS, and SASS: SCSS and SASS are both stylesheet languages that are extensions of CSS. But for our stylesheets, CSS will work just fine.
 
-What exactly does adding a theme do? The `remote_theme` variable in your config file tells GitHub pages where to look for the files that govern the structure and style of your site. Then, it plugs your content (from Markdown and YAML) into the theme's variables, and builds the website. Because these themes are all open source on GitHub, you can see exactly how your theme works by going to the GitHub repository for Cayman: https://github.com/pages-themes/cayman. It may be a little overwhelming at first, but once you get oriented, you can use these files to customize your site even further.
+## Editing the theme
 
-## Structure
+As we discussed in the last section, the version of your website that you see is an HTML file that is built using your content and the Cayman theme's structure and style. We've seen how to add content to your site via the markdown file, as well as how to add an additional stylesheet that will override the stylesheet built into the theme. But what if you want to change something in the HTML itself -- such as the links in the heading? Well, this is when understanding the structure of your theme comes in handy. Let's take a look at the GitHub repository for the Cayman theme: https://github.com/pages-themes/cayman. 
 
-As we discussed in the last section, the version of your website that you see is an HTML file that is built using your content and the Cayman theme's structure and style. We've seen how to add content to your site via the markdown file, as well as how to add an additional stylesheet that will override the stylesheet built into the theme. But what if you want to change something in the HTML itself -- such as the links in the heading? Well, this is when understanding the structure of your theme comes in handy. Let's take a look.
+<img src="../static/cayman.png" alt="Add a new file to your repository" width="100%"/>
 
-In the Cayman theme, like many other Jekyll themes, most of the HTML is found in the`_layouts` folder. In this case, there's only one layout: `default.html`. This file sets the basic structure of each page in your site. If you've seen HTML before, you might notice that this file looks a little different: that's because it also uses a language called [Liquid](https://shopify.github.io/liquid/). That is how the YAML variables you add to your pages and your config file get plugged in to the layout. 
+If you scroll down, you should notice some familiar files, such as `index.md`, `config.yml`, and `README.md`, and even `assets/css/style.scss`. These have the same purpose here as they do in your site. To change any of the theme files, all you need to do is copy them into your own repository and edit them: if GitHub pages finds one in your repository, that file will override the theme file. So if you want to change the homepage layout, you just need to copy that file from the theme and add it to your repository.
+
+### Layouts and Liquid
+
+In the Cayman theme, like many other Jekyll themes, most of the HTML is found in the`_layouts` folder. In this case, there's only one layout: `default.html`. This file sets the basic structure of each page in your site. You might notice that this file looks a little different from regular HTML: for example, take a look at line 2:
+
+```html
+<html lang="{{ site.lang | default: "en-US" }}">
+``` 
+Notice the curly braces and pipes. This is actually using *another* language called [Liquid](https://shopify.github.io/liquid/). In this case, Liquid is used to incorporate specific site-wide and page-wide variables into the HTML template: namely, YAML data you added to the config and page headers. So, if your site is not in English, you can set the language in config file using one of the [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp).
 
 You'll notice at line 30, that there's a variable called `content`
 
@@ -104,17 +113,17 @@ When GitHub Pages builds your site, it starts by looking at your repository for 
 <span class="site-footer-credits">This page was created by Alice using <a href="https://pages.github.com">GitHub Pages (2024)</a>.</span>
 ```
 
-- Once you've made a change, remember to add a message as you commit your changes.
+- Be careful editing around brackets and tags and make sure anything that is opened is also closed. Once you've made a change, remember to add a message as you commit your changes.
 
 ## The GitHub code editor
 
-Once you get into these advanced customizations, you may feel limited by the in-browser editor, which only lets you edit one file at a time. Fortunately, GitHub has other several other options for editing content, including the **github.dev** editor. This option is helpful because it still works in your browser, so you don't have to download or install any software, but you get an environment that lets you work more flexibly.
+Once you get into these advanced customizations, you may feel limited by the in-browser editor, which only lets you edit one file at a time. Fortunately, GitHub has other several other options for editing content, including the **github.dev** editor. This option is helpful because it still works in your browser, so you don't have to download or install any software, but you get an environment that lets you work more flexibly. It also uses syntax highlighting, which can be very helpful as you are working in unfamiliar languages.
 
 To open the github.dev editor, navigate to any file and open the dropdown menu next to the pencil button. Select 'Open with github.dev'.
 
 <img src="../static/githubdev.png" alt="open github.dev editor" width="30%"/>
 
-Once your editor has loaded, you will see a window very similar to the code editor VS Code. On the left sidebar, you'll see all the folders and files in your repository. You can use these to quickly navigate between files. 
+Once your editor has loaded, you will see an interface that looks very similar to the Desktop application [Visual Studio Code](https://code.visualstudio.com/). On the left sidebar, you'll see all the folders and files in your repository. You can use these to quickly navigate between files. 
 
 <img src="../static/ghdev-interface.png" alt="The github.dev editor" width="100%"/>
 
@@ -129,18 +138,16 @@ Click on the git button to review and commit these changes. Describe the changes
 <img src="../static/ghdev-commit.png" alt="Committing in the github dev editor" width="40%"/>
 
 
-
 ## Activity: customizing your site
 
-1. Open your repository in the github.dev editor
+Now that you know the building blocks of GitHub Pages, we want to give you some time to experiment with more advanced customizations. Try using the github.dev editor to do this.
 
-4. Experiment with changing your style: edit `style.scss` to change the font or add a background color.
+- Experiment with changing your style: add a custom stylesheet, and play around with CSS variables like colors, fonts, backgrounds, and borders. This [CSS tutorial from W3schools](https://www.w3schools.com/css/default.asp) is a useful reference for getting started.
 
-5. Change your site's main title and tagline by editing the `_config.yml` file.
+- Change your site's main title, tagline, and language by editing the `_config.yml` file.
 
-6. Add additional links to your header by editing `default.html` 
+- Add additional links to your header by editing `default.html` 
+
+- Feeling adventurous? You can also create additional layouts by copying and renaming `default.html` and changing the layout variable on your pages.
 
 [<<<Back](05-content.md) | [Next>>>](07-resources.md)
-
----
-[^1]: Technically, Jekyll uses a slightly different version of CSS called SCSS. You'll find these files in the `_sass` folder of your theme.
