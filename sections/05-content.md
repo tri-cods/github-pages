@@ -89,9 +89,67 @@ plugins:
 
 ## Content
 
+Your site will look beautiful with the new theme, so why don't we add more content to that main page using Markdown syntax?
+
 ### Adding images
 
-### Adding pages
+To add an image in markdown, we use an exclamation mark `!` followed by square brackets `[ ]` and parentheses. Inside the square brackets, add alternative text to describe the image for accessibility purposes. Inside the parentheses we put the image URL:
+
+```md
+![A pink axolotl in a tank](https://alicemcgrath.digital.brynmawr.edu/simple-site/images/janeway.jpg)
+```
+Important: don't leave a space between the brackets and parentheses.
+
+This is similar to link syntax: `[Bryn Mawr College](http://www.brynmawr.edu)`. This is because when you add an image to a web page, you are really just adding a link to the file location of that image. So, that file location could be hosted on the same folder, or it could be far away.
+
+If you have an image hosted elsewhere, make sure you use the full url, including the file extension at the end. If the image is hosted locally in your github pages site, use the filepath relative to the page where you are linking to it. So, for example, if the image was named `axolotl.jpg` and was in the same folder as the page, you would use:
+
+```
+![A pink axolotl in a tank](axolotl.jpg)
+```
+Or, if it was in a subfolder called `media`, you would use `media/axolotl.jpg`.
+
+One note about adding media to your site: the size limit for GitHub repositories is one gigabyte of data, so it may not be a good option for hosting lots of media files.
+
+### Adding pages and links
+
+To add another page to your website, simply create a new markdown file in your repository. To link to that page, use the filename without the `.md` as the page "slug" or url ending. For example if I created a new page called `cv.md` in the same folder as `index.md` and wanted to link to it from `index.md`, I would add a link like this:
+
+```md
+Check out my [Curriculum Vitae](cv)!
+```
+
+If you prefer a single-page scrolling site, you can also include links to different sections of your page. Markdown automatically generates an index for each header you create -- that means you can link to it from elsewhere on the page using a `#` followed by a lowercase version of the header, with spaces replacing hyphens (for example, "Adding Content" would be `#adding-content`).
+
+```
+[Contact me](#contact-information)
+
+## Bio
+
+Information about me.
+
+## Projects
+
+## Contact Information
+
+```
+
+### Page metadata
+
+Markdown files and YAML are complementary and frequently occur in the same document, for example, using YAML to provide metadata for a page. Adding a YAML header can be useful if you'd like to give your page a title that's separate from the site title, or if you'd like to specify an author, date, or other attributes. Finally, if you have a more complex theme with a header image or multiple layouts, YAML headers are often used to specify those options for the page.
+
+The YAML header appears at the very top, sectioned off by two sets of hyphens:
+
+```
+---
+title: CV
+layout: default
+---
+
+## Curriculum Vitae
+
+```
+
 
 ### Activity: adding content to your site
 
