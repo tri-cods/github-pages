@@ -1,20 +1,30 @@
-[<<<Back](04-how.md) | [Next>>>](06-resources.md)
+[<<<Back](05-content.md) | [Next>>>](07-resources.md)
 
 # Customizing your GitHub Pages Site
 
+At some point as you build out your site, you may want to add or change something that can't be changed using markdown and YAML: maybe you want to add links to the header as a navigation bar? Or maybe you want to change the way your content aligns, or the size of an image? In this section, we will go over some more advanced customizations you can do within the framework of GitHub pages. We will also talk about the **github.dev editor**, which you may find helpful as you continue your web publishing journey.
 
+## HTML in the mix
 
-### What's in a theme?
+As we discussed [in the How it Works Section](04-how.md), Markdown is a simplified form of encoding that uses fewer characters compared to HTML and is easier to write. However, there are many things that HTML can do that markdown can't. Because of this, markdown is built so that HTML elements can be integrated seamlessly as needed. For example, say you want to change the size of an image. That's not possible with markdown, but in HTML you can do this by adding a 'Width' attribute within the image element:
 
-What exactly does adding a theme do? The `remote_theme` variable in your config file tells GitHub pages where to look for the files that govern the structure and style of your site. Then, it plugs your content (from Markdown and YAML) into the theme's variables, and builds the website. Because these themes are all open source on GitHub, you can see exactly how your theme works by going to the GitHub repository for Cayman: https://github.com/pages-themes/cayman. It may be a little overwhelming at first, but once you get oriented, you can use these files to customize your site even further.
+```html
+<img src="https://alicemcgrath.digital.brynmawr.edu/simple-site/images/janeway.jpg" alt="A pink axolotl" width="25%">
+```
+<img src="https://alicemcgrath.digital.brynmawr.edu/simple-site/images/janeway.jpg" alt="A pink axolotl" width="25%">
 
-### Style
+You can also use HTML to add some styling to elements on your page:
 
-While HTML provides the core structure of most web pages, the style (including color, size, font, shape, and how the look changes on different screen sizes) is governed by another language called **CSS** or Cascading Style Sheets. Jekyll uses a slightly different version of CSS called SCSS. You'll find these files in the `_sass` folder, which has a lot going on. 
+```
+<p style="color:magenta;font-family:seriph;border-style:dotted;text-align:center">Axolotl</p>
+```
+<p style="color:magenta;font-family:seriph;border-style:dotted;text-align:center">Axolotl</p>
 
-Fortunately, Cayman offers simplified instructions for adding your own [Stylesheet](https://github.com/pages-themes/cayman/tree/master?tab=readme-ov-file#stylesheet), so you can customize your color scheme, fonts, layout, and a variety of other features.
+As you can see, this only works on the level of the element, so it isn't very efficient. Next, we'll see how to add your own stylesheet for further customization.
 
-### Activity: Adding a custom stylesheet
+## Adding a Stylesheet
+
+While HTML provides the core structure of most web pages, the style (including color, size, font, shape, and how the look changes on different screen sizes) is governed by another language called **CSS** or Cascading Style Sheets.[^1] When I added the style attribute above, I was writing CSS directly into the HTML element, but it usually exists in a separate file called a stylesheet. Creating a custom stylesheet is the best way to control your color scheme, fonts, layouts, and a variety of other features. The easiest way to do this depends on the details of the theme you are using. Fortunately, the theme we are using (Cayman) offers [simplified instructions for adding your own CSS stylesheet](https://github.com/pages-themes/cayman/tree/master?tab=readme-ov-file#stylesheet).
 
 - From the main page of your repository, use the `+` button to "Create a new file". 
   
@@ -50,7 +60,11 @@ h2 {
 
 - Commit your changes with a message explaining what you've done.
 
-### Structure
+### What's in a theme?
+
+What exactly does adding a theme do? The `remote_theme` variable in your config file tells GitHub pages where to look for the files that govern the structure and style of your site. Then, it plugs your content (from Markdown and YAML) into the theme's variables, and builds the website. Because these themes are all open source on GitHub, you can see exactly how your theme works by going to the GitHub repository for Cayman: https://github.com/pages-themes/cayman. It may be a little overwhelming at first, but once you get oriented, you can use these files to customize your site even further.
+
+## Structure
 
 As we discussed in the last section, the version of your website that you see is an HTML file that is built using your content and the Cayman theme's structure and style. We've seen how to add content to your site via the markdown file, as well as how to add an additional stylesheet that will override the stylesheet built into the theme. But what if you want to change something in the HTML itself -- such as the links in the heading? Well, this is when understanding the structure of your theme comes in handy. Let's take a look.
 
@@ -127,3 +141,6 @@ Click on the git button to review and commit these changes. Describe the changes
 6. Add additional links to your header by editing `default.html` 
 
 [<<<Back](05-content.md) | [Next>>>](07-resources.md)
+
+---
+[^1]: Technically, Jekyll uses a slightly different version of CSS called SCSS. You'll find these files in the `_sass` folder of your theme.

@@ -29,11 +29,9 @@ plugins:
 - jekyll-remote-theme
 ```
 
-
 ### Themes
 
 GitHub Pages sites are highly extensible, meaning that they are infinately customizable, but many customizations require some coding ability. Fortunately, there's a large community of developers creating and sharing open-source themes for Jekyll and GitHub Pages: website templates with layouts, stylesheets, and features that you can use for your site by adding a few lines of YAML to your  `_config.yml` file. There are hundreds of options for Jekyll themes, including several designed specifically for digital scholarship projects:
-
 
 - [Collection Builder](https://collectionbuilder.github.io/): a minimal digital exhibit builder featuring data visualizations
 - [Ed](https://minicomp.github.io/ed/): for digital editions and textual editing
@@ -86,6 +84,10 @@ plugins:
 - Finally, **commit your changes**: don't forget to add a commit message!
 
 - Be patient as you wait for your site to re-build. 
+
+### What's in a theme?
+
+What exactly does adding a theme do? The `remote_theme` variable in your config file tells GitHub pages where to look for the files that govern the structure and style of your site. Then, it plugs your content (from Markdown and YAML) into the theme's variables, and builds the website. Because these themes are all open source on GitHub, you can see exactly how your theme works by going to the GitHub repository for Cayman: https://github.com/pages-themes/cayman. It may be a little overwhelming at first, but once you get oriented, you can use these files to customize your site even further.
 
 ## Content
 
@@ -153,7 +155,7 @@ layout: default
 
 ### Activity: adding content to your site
 
-Build out the content of your site by editing your `index.md`. Use markdown syntax to add headers, images, lists, and links -- refer to our [markdown guide](../more/markdown.md) as needed.
+Build out the content of your site by editing your `index.md`. Use markdown syntax to add headers, images, lists, and links -- refer to our [markdown cheatsheet](../more/markdown.md) or the more comprehensive [Markdown Guide](https://www.markdownguide.org/) as needed.
 
 Need some placeholder text? Check out [Lit Ipsum](https://litipsum.com), a site that generates placeholder text text from a selection of public-domain British novels, as an alternative to the [Lorem Ipsum](https://www.lipsum.com/) passage exemplum from the early days of the printing press.
 
