@@ -14,7 +14,7 @@ To understand the significance of this process, let's take a brief look at the h
 
 ## A brief history
 
-Part of understanding why we use the tools and standards for web design today involves understanding how web design started, its evolution and why developers have returned to using static sites.
+Part of understanding why we use the tools and standards for web design today involves understanding how web design started, its evolution and why some developers have returned to using static sites.
 
 ### First website
 ![Screenshot of the first ever website](https://raw.githubusercontent.com/tri-cods/html-css/main/sections/images/first.png)
@@ -105,6 +105,7 @@ If you compare this to HTML, you can start to see why languages like YAML and Ma
     <meta name="description" content="The story of an adorable aquatic creature">
 </head>
 ```
+But what does it do exactly? To build a website, in addition to content and structure one also needs to provide the appropriate metadata and create configuration files. These are features that usually are not visually represented on a browswer but are in the background informing what you see. Like any of the tools and languages we will look in this workshop, YAML can function in many other ways. At its core, YAML is a data serialization language, meaning, it can translate data (in this case key pairs) into a format that can be saved (serialized) in different mamories and files. Then it can be deserialized to be put back together. More on that later. 
 
 
 Let's see how we can use GitHub Pages to customize our site without having to edit each single page...
