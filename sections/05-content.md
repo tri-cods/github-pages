@@ -1,6 +1,6 @@
 # Adding Content 
 
-In this section we'll explore a few crucial files that you can use to change settings in your GitHub Pages site, and then go over how to add a theme to make your site more attractive. Then, we'll discuss how to add different types of content using markdown.
+In this section we'll explore a few crucial files that you can use to change settings in your GitHub Pages site, and then go over how to add a theme to make your site more attractive. Then, we'll discuss how to add different types of content -- including images, text, and additional pages -- using Markdown.
 
 ## Files
 

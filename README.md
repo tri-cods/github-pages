@@ -21,10 +21,10 @@ Github pages offers a robust ecosystem on wich to create a site that both follow
 ## Outline
 - [Introduction: the Ecosystem of GitHub Pages](sections/01-intro.md)
 - [Creating a GitHub Repository](sections/02-repo.md)
-- [Activity: set up GitHub Pages](sections/03-deploy.md)
+- [Deploying a GitHub Pages Site](sections/03-deploy.md)
 - [How GitHub Pages works](sections/04-how.md)
 - [Adding content to your site](sections/05-content.md)
-- [Activity: customizing your site](sections/06-customize.md)
+- [Customizing your GitHub Pages site](sections/06-customize.md)
 
 ### Resources
 - [Markdown guide](more/markdown.md)
