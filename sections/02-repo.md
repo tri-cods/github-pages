@@ -1,14 +1,14 @@
 [<<<Back](01-intro.md) | [Next>>>](03-deploy.md)
 
-# What is a repository?
+# Creating a GitHub Repository
 
 In this section, we'll discuss how to create a GitHub repository for your project in order to store, manage, and publish your work. A repository is a unit of organization (think a directory or folder of files) where all of the materials related to a single project can be stored in the cloud. Every time that you add or edit a file in the repository, Github will keep a record of what changes were made and by whom: Github is designed for collaboration, so you can make changes to a text while someone else is working on the same document. Different versions (branches) of a text can be developed and then merged. You can easily undo changes. You can easily publish your repository as a website using GitHub pages.
 
 In this section, we will:
 
 - Create a Github account
-- Create a repository
-- Add collaborators and teams
+- Create a GitHub repository
+- Add collaborators and teams to the repository
 - Begin writing a README file in markdown
 
 ## Create a Github account
@@ -20,7 +20,7 @@ Go to [Github.com/signup](https://github.com/signup) and enter your information.
 <img src="../static/signup.png" alt="sign up form for github"/>
 
 
-## Create a repository
+## Create a new repository
 
 To create a new repository, log in to Github with the account that you created above and click on the plus button in the upper right corner. Select "New repository":
 
