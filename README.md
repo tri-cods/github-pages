@@ -32,3 +32,11 @@ Github pages offers a robust ecosystem on wich to create a site that both follow
 - [Other features of GitHub](more/other_features.md)
 
 ---
+
+Current authors: Alice McGrath, Roberto Vargas.
+Reviewer: Sean Keenan.
+Past contributing authors: Andy Janco, Mike Zarafonetis.
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+[Tri-Co Digital Scholarship Research Institute](https://ds-pages.swarthmore.edu/dsri/) by Tri-Co Digital Scholarship Group is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). Based on a work at <https://github.com/DHRI-Curriculum>. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.
