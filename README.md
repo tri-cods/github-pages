@@ -5,13 +5,13 @@ In this brief workshop, participants will be introduced to Github Pages , ["a st
 - Learn how to set up a GitHub Pages site
 - Learn how to add content to the site
 - Learn how to edit and modify the theme of the site
-- Lear how to add collaborators to the repository
+- Learn how to add collaborators to the repository
 - Undersatand the concepts of static and dynamic websites and minimal computing.
 
 
 ## Why learn GitHub Pages?
 
-Github pages offers a robust ecosystem on wich to create a site that both follow the ethos of collaboration and minimal computing. Alhtough Content Managment Systems (CMS) like Omeka and Wordpress are also viable alternatives for website development, they require substantial local infrastructure to set up and can prohibit wide adoption. 
+Github pages offers a robust ecosystem on wich to create a site that both follow the ethos of collaboration and minimal computing. Although Content Managment Systems (CMS) like Omeka and Wordpress are also viable alternatives for website development, they require substantial local infrastructure to set up and can prohibit wide adoption. 
 
 [Begin>>](sections/01-intro.md)
 

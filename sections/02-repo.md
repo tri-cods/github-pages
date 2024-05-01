@@ -2,7 +2,7 @@
 
 # Creating a GitHub Repository
 
-In this section, we'll discuss how to create a GitHub repository for your project in order to store, manage, and publish your work. A repository is a unit of organization (think a directory or folder of files) where all of the materials related to a single project can be stored in the cloud. Every time that you add or edit a file in the repository, Github will keep a record of what changes were made and by whom: Github is designed for collaboration, so you can make changes to a text while someone else is working on the same document. Different versions (branches) of a text can be developed and then merged. You can easily undo changes. You can easily publish your repository as a website using GitHub pages.
+In this section, we'll discuss how to create a GitHub repository for your project in order to store, manage, and publish your work. A repository is a unit of organization (think a directory or folder of files) where all of the materials related to a single project can be stored in the cloud. Every time that you add or edit a file in the repository, Github will keep a record of what changes were made and by whom: Github is designed for collaboration, so you can make changes to a text while someone else is working on the same document. Different versions (branches) of a text can be developed and then merged -- it cultivates an intentional practice of collaboration as changes are packaged and labeled. 
 
 In this section, we will:
 
@@ -67,5 +67,9 @@ Once you've added some text, you will want to 'save' your changes by using the "
 <img src="../static/commit.png" alt="new repository form" width=50%/>
 
 In the "Commit message" field, add a message that describes the change you just made. Then select "Commit changes" so that  your edits will be integrated into the existing file.
+
+## Publishing
+
+Technically, you have already published your repository's contents -- you can share the repo's url with anyone to show them your work. Next we will see how to use GitHub pages to "deploy" or publish your repository as an attractive website.
 
 [<<<Back](01-intro.md) | [Next>>>](03-deploy.md)
