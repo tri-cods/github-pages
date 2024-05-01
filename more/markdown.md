@@ -1,11 +1,8 @@
----
-layout: page
-title: Introducing Markdown
---- 
+# Markdown Guide
+
+Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension. While markdown has long been adopted by developers, in recent years more mainstream applications (such as Notion, Obsidian, Roam, and even GoogleDocs) have begun supporting markdown text as well.
 
 ## Headings and Emphasis
-
-We'll be using markdown to create a syllabus, and then using Git to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a .md extension.
 
 In markdown, we insert headings with a single hash mark like this:
 
@@ -26,15 +23,29 @@ For emphasis, you need to mark where it should start and where it should end, so
 
 To create a bulleted list, put a hyphen at the beginning of each list item:
 
-    - Reading one
-    - Reading two
-    - Reading three
+    - Something
+    - Another thing
+    - One more thing
+
+For a numbered list, use a number followed by a period at the beginning of each list item:
+
+    1. First thing
+    2. Second thing
+    3. Third thing
 
 ## Links
 
 To create a link, put the anchor text (the text you will see) in square brackets and the URL in parentheses. Don't put a space between them:
 
-    I am the Coordinator for Digital Scholarship and Research Services at [Haverford College Libraries](https://www.haverford.edu/library).
+    I work at [Bryn Mawr College](https://www.brynmawr.edu/).
+
+## Images
+
+An image is similar to a link but begins with an exclamation mark: in square brackets add alternative text describing the image (aka 'alt text'), and in parentheses add the url or path to that image.
+
+```md
+![A pink axolotl in a tank](https://alicemcgrath.digital.brynmawr.edu/simple-site/images/janeway.jpg)
+```
 
 ## Paragraphs
 
@@ -46,13 +57,12 @@ Paragraphs of text are denoted by putting a blank line between them:
 
 ## The Github Text Editor
 
-Using these five elements—headings, emphasis, lists, links, and paragraphs—you can create a syllabus or course site. 
+Using these elements -- headings, emphasis, lists, links, images, and paragraphs -- you can build a wide variety of content. 
 
 You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/master/sections/syllabus.md).
 
 Your markdown in the Github browser-based editor will look like this:
-![Your markdown in the Github browser editor](static/github_markdown_editor.png)
+![Your markdown in the Github browser editor](../static/github_markdown_editor.png)
 
 Note that in the tabbed bar at the top of the editor, there's a "Preview Changes" tab. You can use these tabs to toggle between the editor and the preview. The preview shows you what your markdown will look like when it is rendered by Github:
-![Your markdown rendered in the Github preview](static/github_markdown_preview.png)
-
+![Your markdown rendered in the Github preview](../static/github_markdown_preview.png)

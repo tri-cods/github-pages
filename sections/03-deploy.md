@@ -24,21 +24,28 @@ Now that you have a GitHub repository, it's now time to share your work with the
 
 ## Your new site's url
 
-- Navigate back to the "Code" tab.
-- Edit your "about" details: include a short description
-- Under "Website", select "use GitHub Pages URL"
+The URL to your GitHub Pages site will follow this formula: `username.github.io/repo-name` -- let's make it easier to find.
+
+- Navigate back to the "Code" tab, or main page to your repository. Edit your "About" details by clicking on the gear in the top right corner.
+
+<img src="../static/edit-about.png" alt="edit about section" width="40%">
+
+- Write a short description of your repository. 
+- Under "Website", check the box to select "use GitHub Pages URL"
 - Save your changes
 
-Now you'll notice that a url has appeared. 
+<img src="../static/repo-details.png" alt="repository details" width="60%">
 
-After your 'commit' history, you'll see a yellow dot that indicates your site is in the process of deploying. 
+Now you'll notice that a url has appeared.
+
+## Waiting for GitHub Pages
+
+From your main page, you should be able to tell whether GitHub Pages has finished deploying your site.  After your latest 'commit', you'll see a brownish-yellow dot or a green check mark.
 
 <img src="../static/progress-check.png" alt="view status of jekyll build">
 
-Once the dot becomes a green check mark, navigate to your URL and marvel at your new website.
+The dot indicates that your site is in the process of deploying. Once the dot becomes a green check mark, navigate to your URL and marvel at your new website! 
 
-## How it works
-
-While we wait for the site to build, let's take a look at what's going on under the hood.
+Sometimes this process takes a few minutes. While we wait for the site to build, let's talk about what it's doing.
 
 [<<<Back](02-repo.md) | [Next>>>](04-how.md)

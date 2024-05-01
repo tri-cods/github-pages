@@ -23,9 +23,12 @@ Github pages offers a robust ecosystem on wich to create a site that both follow
 - [Activity: create a repository](sections/02-repo.md)
 - [Activity: set up GitHub Pages](sections/03-deploy.md)
 - [How GitHub Pages works](sections/04-how.md)
-- [Activity: themes and customization](sections/05-customize.md)
+- [Adding content to your site](sections/05-content.md)
+- [Activity: customizing your site](sections/06-customize.md)
 
 ### Resources
 - [Markdown guide](more/markdown.md)
+- [Why git?](more/why_git.md)
+- [Other features of GitHub](more/other_features.md)
 
 ---
