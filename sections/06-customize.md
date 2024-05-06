@@ -13,6 +13,8 @@ As we discussed [in the How it Works Section](04-how.md), Markdown is a simplifi
 ```
 <img src="https://alicemcgrath.digital.brynmawr.edu/simple-site/images/janeway.jpg" alt="A pink axolotl" width="25%">
 
+Need a refresher or a quick intro to HTML? Check out our [HTML & CSS Workshop](https://github.com/tri-cods/html-css), or look at this [helpful guide from W3 Schools](https://www.w3schools.com/html/).
+
 You can also use HTML to add some styling to elements on your page:
 
 ```

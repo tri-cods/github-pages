@@ -1,6 +1,21 @@
-# Links to resources
+# Resources for Exploring GitHub Pages
 
-## Resources for this workshoop
+## Going further with GitHub Pages
+
+If you are interested in going expanding your skills to go further with GitHub Pages, here are a few options you might explore on your own.
+
+### Use a theme as a repository template
+
+Some Jekyll themes are packaged as GitHub templates, so you can quickly create a new site based off the old one. This is a good option if you want features from a more complicated theme that's not one of the GitHub Pages Supported Themes. 
+
+For example, the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme is a popular and versatile one. If you visit the repository for their [Minimal Mistakes GitHub Pages Starter Site](https://github.com/mmistakes/mm-github-pages-starter) and click on 'Use this Template', you can quickly set up a full-fetured site and customize it as we've been doing.
+
+### Install Jekyll for local development
+
+[Jekyll](https://jekyllrb.com/) is the website builder that powers GitHub Pages. If you want to do a lot of customization and preview your site more quickly and before you publish, you may decide to develop your site locally on your computer by installing Jekyll. This will require some troubleshooting and using the Command Line. See [Jekyll's quickstart guide](https://jekyllrb.com/docs/) to get a sense of what you'll need. The installation guide for [Collection Builder](https://collectionbuilder.github.io/cb-docs/docs/software/) can also be very helpful, even if you aren't using it as a template.
+
+
+## Additional Resources
 
 ### Git and GitHub
 
@@ -22,9 +37,8 @@
 
 - [Collection Builder](https://collectionbuilder.github.io/)
 
-```
-"CollectionBuilder is an open source framework for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology."
-```
+> "CollectionBuilder is an open source framework for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology."
+
 - [Codespaces](https://github.com/features/codespaces)
 
 A cloud-based development editor
@@ -35,4 +49,11 @@ A short manifesto explaning some of the ideas behind static sites in libraries a
 
 - [The Case of Ed](https://des4div.library.northeastern.edu/design-for-diversity-the-case-of-ed-alex-gil/) by Alex Gil (From the *Design for Diversity Learning Toolkit*, 2019)
 
-An explanation of the minimal computing design philosophy behind [Ed](https://github.com/minicomp/ed) and other tools for static sites.
+An explanation of the minimal computing design philosophy behind the digital edition builder [Ed](https://github.com/minicomp/ed) and other tools for static sites.
+
+## TriCo Digital Scholarship Projects using GitHub Pages or Jekyll
+
+- [Reactor Room: An Immersive Chornobyl Exhibition](https://digitalscholarship.brynmawr.edu/reactor-room/)
+- [Encyclopedia of the Dog: An Annotated Digital Edition of Sasha Sokolov's *Between Dog and Wolf*](https://encyclopediaofthedog.com/)
+- [DSRI Website](https://ds-pages.swarthmore.edu/dsri/)
+- [The Critical Web Design Toolkit](https://digbmc.github.io/cwd-toolkit/)
