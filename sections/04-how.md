@@ -1,6 +1,6 @@
 # How it Works
 
-GitHub Pages is a service that takes HTML, CSS and JavaScript files from a repository and builds a site out of them. The image below, created by Kyle Meagher and posted at their vlog titled ["Static Site Generators Explained in 5 minutes"](https://www.cosmicjs.com/blog/static-site-generators-explained-in-5-minutes) is a good representation of the process GitHub Pages uses to build the site
+GitHub Pages is a service that takes HTML, CSS and JavaScript files from a repository and builds a site out of them. The image below, created by Kyle Meagher and as part of a blog post titled ["Static Site Generators Explained in 5 minutes"](https://www.cosmicjs.com/blog/static-site-generators-explained-in-5-minutes), is a good representation of the process GitHub Pages uses to build the site
 
 <img src="../static/static-process.png" alt="static site process">
 
@@ -24,7 +24,7 @@ This site, created on August 23, 1991, was and is a static site. This site is ma
 ### Dynamic 
 ![Image of first version of wordpress](https://cdn4.wpbeginner.com/wp-content/uploads/2018/07/wordpress-firstrelease-1.png)
 
-The era of dynamic sites brought about sites that generate content "on-the-fly", usually based on user behaivor. Content lives on a database and is updated and displayed as you navigate the site. In other words, in contrast to a static site, what you see is dynamically updated based on the time of day (think of news sites) or user-generated conente (think of social media). 
+The era of dynamic sites brought about sites that generate content "on-the-fly", usually based on user behaivor. Content lives on a database and is updated and displayed as you navigate the site. In other words, in contrast to a static site, what you see is dynamically updated based on the time of day (think of news sites) or user-generated content (think of social media). 
 
 ## Static vs Dynamic
 
@@ -84,11 +84,11 @@ This can also be written in Markdown as
 ```markdown
 # This is a Title 
 ```
-Markdown, like HTML (or XML) is a lightweight markup language that you can use to format plain text documents. Alhtough it is not meant to replace HTML, Markdown syntax is much easier to learn. In addition, Markdown is portable and platform agnostic. In other words, if you take notes using Mardown, you can open those notes in any other application. To add content to your site, you will be using Markdown and letting GitHub Pages convert it to HTML. 
+Markdown, like HTML (or XML), is a lightweight markup language that you can use to format plain-text documents. Alhtough it is not meant to replace HTML, Markdown syntax is much easier to learn. In addition, Markdown is portable and platform agnostic. In other words, if you take notes using Markdown, you can open those notes in any other application. To add content to your site, you will be using Markdown and letting GitHub Pages convert it to HTML. 
 
 ### What is YAML? 
 
-Like Markdown, YAML (which allegedly stands for [YAML Ain't Markup Language](https://yaml.org/)) is designed to be both human-readable and machine readable. in YAML, attributes and values are expressed using a simple colon and a space, for example: 
+Like Markdown, YAML (which allegedly stands for [YAML Ain't Markup Language](https://yaml.org/)) is designed to be both human-readable and machine readable. In YAML, attributes and values are expressed using a simple colon and a space, for example: 
 
 ```YAML
 title: Axolotl
@@ -105,7 +105,7 @@ If you compare this to HTML, you can start to see why languages like YAML and Ma
     <meta name="description" content="The story of an adorable aquatic creature">
 </head>
 ```
-But what does it do exactly? To build a website, in addition to content and structure one also needs to provide the appropriate metadata and create configuration files. These are features that usually are not visually represented on a browswer but are in the background informing what you see. Like any of the tools and languages we will look in this workshop, YAML can function in many other ways. At its core, YAML is a data serialization language, meaning, it can translate data (in this case key pairs) into a format that can be saved (serialized) in different mamories and files. Then it can be deserialized to be put back together. More on that later. 
+But what does it do exactly? To build a website, in addition to content and structure one also needs to provide the appropriate metadata and create configuration files. These are features that usually are not visually represented on a browser but are in the background informing what you see. Like any of the tools and languages we will look in this workshop, YAML can function in many other ways. At its core, YAML is a data serialization language, meaning, it can translate data (in this case key pairs) into a format that can be saved (serialized) in different memories and files. Then it can be deserialized to be put back together. More on that later. 
 
 
 Let's see how we can use GitHub Pages to customize our site without having to edit each single page...
