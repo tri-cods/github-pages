@@ -110,4 +110,4 @@ But what does it do exactly? To build a website, in addition to content and stru
 
 Let's see how we can use GitHub Pages to customize our site without having to edit each single page...
 
-[<<<Back](03-deploy.md) | [Next>>>](05-customize.md)
+[<<<Back](03-deploy.md) | [Next>>>](05-content.md)
