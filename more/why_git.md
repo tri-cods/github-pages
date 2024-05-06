@@ -4,7 +4,7 @@
 
 Git was originally created in 2005 as a way to manage the distributed development of the open source operating system Linux. The version control tool made it easy for multiple developers to work on the same code at the same time without stepping on each other's toes or overwriting existing work. If you wanted to work on the project, you could download the Linux source code, make desired changes, and then upload your version of the code base back to the main repository. It also included tools for merging the work of many developers. One of its primary functions, though, is version control--any collaborator on a project can view the version history of each file in the repo. Like Microsoft Word's "Track Changes" feature, the changes made in each file are marked by git and associated with a user across the entire project. Each snapshot is called a "commit," and each commit is assigned a unique identifier. This ensures that you can roll back to any previous commit in the repository's history (a useful feature if things go horribly wrong)!
 
-![Viewing commit details on Github is like Track Changes for an entire project](static/github_changes.png)
+![Viewing commit details on Github is like Track Changes for an entire project](../static/github_changes.png)
 
 ## Remote Repository Hosts
 

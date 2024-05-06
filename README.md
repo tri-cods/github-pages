@@ -34,7 +34,7 @@ Github pages offers a robust ecosystem on wich to create a site that both follow
 ---
 
 Current authors: Alice McGrath, Roberto Vargas.
-Reviewer: Sean Keenan.
+Reviewers: Sean Keenan, James Truitt.
 Past contributing authors: Andy Janco, Mike Zarafonetis.
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
