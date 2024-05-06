@@ -18,7 +18,8 @@ You can also use HTML to add some styling to elements on your page:
 ```
 <p style="color:magenta;font-family:seriph;border-style:dotted;text-align:center">Axolotl</p>
 ```
-<p style="color:magenta;font-family:seriph;border-style:dotted;text-align:center">Axolotl</p>
+
+<img src="../static/axolotl-pink-border.png" alt="Axolotl styled text" width=40%>
 
 As you can see, this only works on the level of the element, so it isn't very efficient. Next, we'll see how to add your own stylesheet for further customization.
 
