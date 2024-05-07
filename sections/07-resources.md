@@ -57,3 +57,6 @@ An explanation of the minimal computing design philosophy behind the digital edi
 - [Encyclopedia of the Dog: An Annotated Digital Edition of Sasha Sokolov's *Between Dog and Wolf*](https://encyclopediaofthedog.com/)
 - [DSRI Website](https://ds-pages.swarthmore.edu/dsri/)
 - [The Critical Web Design Toolkit](https://digbmc.github.io/cwd-toolkit/)
+- [Los Paisanos del Puerto](https://ds-pages.swarthmore.edu/paisanos-del-puerto/)
+- [Language and Identity in the African Language](https://ds-pages.swarthmore.edu/language-and-identity/)
+- [Sublime Miscellany](https://ds-pages.swarthmore.edu/sublime-miscellany/)
