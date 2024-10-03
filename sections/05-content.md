@@ -16,9 +16,9 @@ Here you can find lots of useful information
 
 ### Config
 
-Another crucial file to add to your site is the `config.yml` file: it's a metadata file written in the YAML markup language. The config.yml file includes crucial settings and metadata for your website, such as title, author, description, theme, and many more options. The `.yml` file extension indicates that the config.yml file is in the [YAML](https://yaml.org/) markup language. Understanding a few of these settings and how to add them can let you do a lot of customization.
+Another crucial file to add to your site is the `_config.yml` file: it's a metadata file written in the YAML markup language. The config.yml file includes crucial settings and metadata for your website, such as title, author, description, theme, and many more options. The `.yml` file extension indicates that the config.yml file is in the [YAML](https://yaml.org/) markup language. Understanding a few of these settings and how to add them can let you do a lot of customization.
 
-An example of settings in `config.yml`
+An example of settings in `_config.yml`
 
 ```yaml
 title: Axolotl # The top-level website title
@@ -56,7 +56,7 @@ Every theme has different documentation and some take longer to set up than othe
 
 - Commit your changes and add a brief message about your edit.
 
-#### Add a Config.yml
+#### Add a `_config.yml`
 
 - From the main page of your repository, use the `+` button to "Create a new file". 
 
