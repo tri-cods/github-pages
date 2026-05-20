@@ -157,7 +157,7 @@ layout: default
 
 Build out the content of your site by editing your `index.md`. Use markdown syntax to add headers, images, lists, and links -- refer to our [markdown cheatsheet](../more/markdown.md) or the more comprehensive [Markdown Guide](https://www.markdownguide.org/) as needed.
 
-Need some placeholder text? Check out [Lit Ipsum](https://litipsum.com), a site that generates placeholder text text from a selection of public-domain British novels, as an alternative to the [Lorem Ipsum](https://www.lipsum.com/) passage exemplum from the early days of the printing press.
+Need some placeholder text? Check out [Project Gutenberg](https://www.gutenberg.org/), a repository of free, public domain e-books and copy text from an out-of-copyright book.  You can also use the traditional [Lorem Ipsum](https://www.lipsum.com/) passage exemplum from the early days of the printing press.
 
 Add one or two images to your site. These can be linked from elsewhere or uploaded directly to your repository. Make sure that anything you upload to your site does not have rights restrictions: here are some recommendations for adding rights-free media:
 
